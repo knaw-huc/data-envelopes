@@ -1,3 +1,3 @@
 # Learning materials
 
-TODO: add tutorials, guidelines etc.
+COMING SOON: Tutorials, guidelines and an introductory video.
