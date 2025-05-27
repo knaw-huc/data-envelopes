@@ -23,3 +23,4 @@ Data-envelopes are being developed by the [Huygens Institute](https://www.huygen
 * [Related initiatives](related_initiatives.md)
 * [News and events](news_and_events.md)
 * [Get in touch](contact.md)
+* [Acknowledgements](acknowledgements.md)
