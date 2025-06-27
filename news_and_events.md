@@ -7,6 +7,7 @@ We will be organising events to raise awareness and gather feedback on data-enve
 * [Grant awarded](https://www.huygens.knaw.nl/en/project-access-to-context-awarded-e-rihs-grant/) for Accessing Context project 
 
 ## Upcoming Events
+* Workshop sessions **'Finding, assessing and reusing datasets' and 'Data-envelopes for describing datasets'** at the [Clariah Summer School 2025](https://www.clariah.nl/events/clariah-summer-school-2025) in Amsterdam.
 * Workshop **'Data-envelopes: Making it easier for you to find, assess and use datasets in your research’** - 10th July in Hilversum. Please [contact us](contact.md) if you would like to attend.
 * Workshop **'Data-envelopes: Sharing your contextual knowledge of archives, collections, and datasets’** - 11th July in Amsterdam. Please [contact us](contact.md) if you would like to attend.
 
