@@ -1,3 +1,6 @@
+---
+id: homepage
+---
 # data-envelopes
 This site provides resources for learning about Data-envelopes
 
