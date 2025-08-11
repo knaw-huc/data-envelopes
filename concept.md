@@ -123,5 +123,4 @@ Level 5 looks at the human perspectives that could have influenced the dataset
 Content:
 * Annotator descriptions
 * Creators
-   * 
 
