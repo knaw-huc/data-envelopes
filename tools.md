@@ -1,5 +1,6 @@
 # Tools
 
-Here are tools for working with data-envelopes
+Here are tools for working with enriched dataset contextualisations:
 
-* [Huygens data-envelope editor](https://github.com/knaw-huc/hi-data-envelop-editor) - open source
+* Data-Envelopes
+  * [Huygens data-envelope editor](https://github.com/knaw-huc/hi-data-envelop-editor) - open source
