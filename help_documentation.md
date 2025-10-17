@@ -160,7 +160,7 @@ For items within a dataset (in this example letters):
 ## 2.5 Licenses and Accesses<a id='level-2-licence'></a>
 This section tells you how you can access the dataset and under which licence(s) it may be used. Access may be direct or via a portal application. A dataset can have multiple access/licence combinations. For example, it may be browsable via an Open Access portal, while content may be downloadable via a Restricted Access portal with a licence permitting reuse.
 
-A licence should not only be specified when access is restricted, but also when access is open. The licence determines what the user is allowed to do with the dataset. No license is ambiguous. In the absence of a licence, users could assume they can do anything they want, or they could assume they cannot do certain things that may actually be permitted. 
+A licence should not only be specified when access is restricted, but also when access is open. The licence determines what the user is allowed to do with the dataset. Not filling in a licence is ambiguous. In the absence of a licence, users could assume they can do anything they want, or they could assume they cannot do certain things that may actually be permitted. 
 
 The Huygens default license is given on [this page](https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/)
 
