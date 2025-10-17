@@ -1,7 +1,9 @@
 # Help documentation for fields
-This page contains help documentation, including examples, for the fields in a data-envelope as implemented in the Huygens Data-Envelope editor.
+This page contains help documentation, including examples, for the fields in a data-envelope as implemented in the Huygens Data-Envelope editor. If you want general help in creating data-envelopes, then read the [guidelines](guidelines.md)
 
 # Basic workflow
+Follow the link you have been given to the editor and enter the login information you have been given.
+
 The editor opens showing a list of all data-envelopes in a table. 
 
 You create a data-envelope by clicking the plus icon in the top of the table. 
@@ -27,8 +29,12 @@ At the top of the data-envelope there is some basic administrative information
 
 # Level 1 Basic Information
 This level describes the data-envelope itself and the dataset contact person.
+
 ## 1.1. Title of Data-Envelope
-A title for the data-envelope, NOT the dataset. Follow the format: Dataset Name Version-X Data-Envelope Version-Y. E.g. Baptism Registers Amsterdam Version-1 Data-Envelope Version-1.
+A title for the data-envelope, NOT the dataset. Follow the format: Dataset Name Version-X Data-Envelope Version-Y. 
+
+    Baptism Registers Amsterdam Version-1 Data-Envelope Version-1
+
 The first version number refers to the version of the dataset being documented, the second version number refers to the version of the documentation itself. Typically the version number is '1' for the first version of the dataset or the envelope. You can agree a numbering system with your team.
 
 ## 1.2 Contact Details
@@ -54,10 +60,10 @@ This should contain information about the primary author of the data-envelope it
 * Email - an email address for the primary author. The recommendation is to use a general institutional address to avoid problems when people move to new institutions. E.g. data@myinstitution.org
 
 ## 1.5 Feedback and elaboration
-Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful. For example, you can indicate to what extent the necessary information for the data-envelope was easily available: was this a current project with experts available to answer all the questions, or is it data from fifty years ago for which the description has been pieced together from old documentation sources? You can also indicate what information sources you used to fill in the data-envelope, if you wish. 
+Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful. For example, you could indicate to what extent the necessary information for the data-envelope was easily available: was this a current project with experts available to answer all the questions, or is it data from fifty years ago for which the description has been pieced together from old documentation sources? You can also indicate what information sources you used to fill in the data-envelope, if you wish. 
 
 # Level 2 Basic Metadata
-This level describes the basic dataset metadata. This includes: what the dataset contains, what the temporal and geographical coverage are, how it can be accessed etc. This section conforms to the Data Catalog Vocabulary (DCAT) standard, ensuring compatibility with machine-readable formats.
+Level 2 describes the dataset at a conceptual level. It is the 'trailer' that allows users to assess if the dataset is relevant to them, and as such it should be concise (preferably max 200 words). This level describes the basic dataset metadata. This includes: what the dataset contains, what the temporal and geographical coverage are, how it can be accessed etc. This section conforms to the Data Catalog Vocabulary (DCAT) standard, ensuring compatibility with machine-readable formats.
 
 ## 2.1 Snapshot
 This contains information about what is in the dataset.
@@ -66,7 +72,7 @@ There is some discussion as to what should be included in the temporal and geogr
 
 * Dataset title - the title of the dataset
 * Version - the version number of the dataset. Typically this is '1' for the first version of the dataset. You can agree a numbering system with your team. This should be the same as the version number stated in the data-envelope title.
-* Description - Provide a free text account of the dataset or resource (limit 200 words). Include information about the content and topic of the data and what makes the dataset useful.
+* Description - Provide a free text account of the dataset or resource (limit 200 words). Include information about the content and topic of the data and what makes the dataset valuable. You may also briefly refer to how the data is available (download, portal etc.) but details about this should be entered at Level 3.
 * Genre - One or more genres from a vocabulary that apply to the dataset
 * Other Genre - Genres that apply to the dataset that are not included in the vocabulary
 * Topic Classification - One or more topics from a vocabulary that apply to the dataset
@@ -83,10 +89,12 @@ This refers to the temporal coverage of the content of the dataset, not the date
 * Temporal coverage Start - the first year of the temporal scope
 * Temporal coverage End - the last year of the temporal scope
 * Year - in the case that the temporal scope cannot be captured in a range, this field allows you to specify the individual years that are relevant to the scope of the dataset
-* Additional Notes - Specify any additional information about the temporal scope of the dataset. This could include gaps in the coverage, or years that contain more data.
+* Additional Notes - Specify any additional information about the temporal scope of the dataset. This could include gaps in the coverage, or years that contain more data than others.
 
 ## 2.2 Dates
-These dates refer to the time span during which the dataset was created. For example, the start and end date of the project to collect and digitise the data. The date on which the dataset is published is also specified.
+These dates refer to the time span during which the dataset was created. For example, the start and end date of the project to collect and digitise the data. The date on which the dataset is published is also specified. Note: these dates could conincide with the temporal coverage, for example if the dataset contains tweets collected daily. But usually it is later; for example a dataset may contain interviews recorded this year that discuss the Second World War.
+
+A dataset may have been worked on in several phases. If they are all part of the same project, then choose the earliest and latest dates to enter here, and if you wish you can explain in more detail in Section 2.7. If they are distinct projects - for example if your dataset is a digitised book of nineteenth century diaries that was published in the 1980s and digitised in 2023 - then choose the project that is most relevant to the dataset you are describing (in this case, the digitisation). 
 
 * Date From - when work on the dataset started
 * Date To - when work on the dataset was complete
@@ -132,17 +140,29 @@ Here you can fill in persons, organisations or other funding sources that funded
 This section specifies where you can get the dataset or further information about the dataset, information on available downloads and on how to cite the dataset
 
 * Dataset Link - This is a link that identifies the dataset. For instance its DOI, Handle, or ARK
-* Repository - One or more links to information about the dataset. If the dataset has its own dedicated website(s) or is hosted on sites such as github, zenodo, dataverse, marketplace, provide the url(s) here. Documentation and FAQ pages can also be linked.
+* Repository - One or more links to the dataset or to information about the dataset. If the dataset has its own dedicated website(s) or is hosted on sites such as github, zenodo, dataverse, marketplace, provide the url(s) here. Documentation and FAQ pages can also be linked.
 * Download
   * Link - one or more download links for the dataset
   * File/folder type - the type that is downloaded. For example, .zip for an archive file.
   * File Size - the size of the downloaded content, in MB
 * Citation - the text that should be used to cite the dataset
 
+Examples of citation formats:
+
+For a whole dataset:
+
+    Dijkstra, G., Groskamp, N., Hoekstra, R., Koolen, M., Renkema, E., Sluijter, R., Smit, F., & Oddens, J. (2024). Entities recognised in the resolutions of the States General of the Dutch Republic (1576-1796) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14577244 
+
+For items within a dataset (in this example letters):
+
+    A [name of correspondent] to B [name of correspondent], date [date of letter or  document], The Correspondence of William of Orange nr. [number of letter or document], date consulted. URL[number]. Example: [Willem van] Oranje to Filips van Hessen, 12-12-1560, The Correspondence of William of Orange nr. 5097, 8-2-2005. URL
+
 ## 2.5 Licenses and Accesses
 This section tells you how you can access the dataset and under which licence(s) it may be used. Access may be direct or via a portal application. A dataset can have multiple access/licence combinations. For example, it may be browsable via an Open Access portal, while content may be downloadable via a Restricted Access portal with a licence permitting reuse.
 
 A licence should not only be specified when access is restricted, but also when access is open. The licence determines what the user is allowed to do with the dataset. No license is ambiguous. In the absence of a licence, users could assume they can do anything they want, or they could assume they cannot do certain things that may actually be permitted. 
+
+The Huygens default license is given on [this page](https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/)
 
 ### Licensing Information
 
@@ -165,7 +185,7 @@ If the level is 'open access', then you can enter more information about how the
 * Contact email -  email for users to reach out with any questions or concerns regarding data access
 
 ### Access Restricted
-If the level is not open access, then you can enter more information about how access works
+If the level is not open access, then you can enter more information about how access works and why it is restricted
 
 * Description - description of the access restriction. Include an explanation of why access controls are in place. Also highlight any restrictions or limitations such as geographical restrictions, time-limited access, or requirements of fees, national regulation, etc. Also provide any conditions for acceptable use, such as reading data usage policy.
 * URL - A link to instructions and/or page to request access
@@ -190,21 +210,37 @@ It is not per se necessary to include information about technical updates to sto
    * Version affected - the number of the version that will be updated
    * Date of next planned update - the date on which the dataset will be updated
    * Next Version - the number of the next version
+  
+  Examples of maintenance plans:
+
+  Release of new data
+  
+      Reported errors in the index will be corrected. Access to cards will be unblocked either 1) after the death of the person in question is reliably reported, 2) 105 years have passed since their date of birth or 3) during periodic verifications of the data against the data held bij the CBG (Centraal Bureau voor Genealogie, Central Office of Genealogy). Otherwise the dataset is static and is not updated.
+
+ Only improvements or corrections
+
+      This dataset will not be further enlarged. Possibly the transcriptions will be updated with improved versions.
+
+ No maintenance
+ 
+      This dataset will not be further updated or enlarged.
 
   ## 2.7 Feedback and Elaboration
   Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful 
 
   # Level 3 Data
-  This level goes much deeper into the dataset. It describes how the dataset was created, and how it is structured. There is also the opportunity to describe issues such as errors, biases, sensitivity and confidentiality. 
+  This level goes much deeper into the dataset. It should help the user use it in a correct and responsible manner. It describes how the dataset was created, and how it is structured. There is also the opportunity to describe issues such as errors, biases, sensitivity and confidentiality. 
 
- Level 3 represents a Data Resource of the dataset. A Resource is something that a user can utilise to work with the dataset. A Resource can be a downloadable file, or a search portal in which the dataset can be browsed, or an endpoint for querying the data, etc. The entire level can be repeated. Each repetition represents a Resource within the dataset. Different Resources may be used, for example, to describe different files within the data. They can also be used to describe different variants that are available, for example an open version and a restricted version, if these differ significantly in how they are created or what they contain. However, you can combine multiple files or multiple versions within the same Resource. When deciding how many Resources to use to represent the dataset, consider how much of the information in Level 3 the Resources have in common, how easy it is to describe each Resource clearly and how easy it is for the user to understand what is available to them. 
+ Level 3 represents a Resource of the dataset. A Resource is something that a user can utilise to work with the dataset. A Resource can be a downloadable file, or a search portal in which the dataset can be browsed, or an endpoint for querying the data, etc. The entire level can be repeated. Each repetition represents a Resource within the dataset. Different Resources may be used, for example, to describe different files within the data. They can also be used to describe different variants that are available, for example an open version and a restricted version, if these differ significantly in how they are created or what they contain. However, you can combine multiple files or multiple versions within the same Resource. When deciding how many Resources to use to represent the dataset, consider how much of the information in Level 3 the Resources have in common, how easy it is to describe each Resource clearly and how easy it is for the user to understand what is available to them.  If you are in doubt about how many Resources to use, read the [guidelines](guidelines.md).
+
+ Level 3 gives the opportunity to fill in a lot of detail, which may not be necessary for all datasets. Fill in as much as you think is useful to your users.
 
   ## 3.1 Data Resource Description
-  This describes some basic information about the Resource, such as name, description, format and size. Depending on the dataset, some information may be a repetition of information from Level 2, or it may be different. For example, if a dataset is split into different language files, then the Languages in Level 2 may be 'German, Dutch and French', while the language of the Resource representing the German section will just be 'German'. However, if the all of the Resources were a mix of the three languages then both Level 2 and all Resources would have 'German, Dutch and French' for their Languages. 
+  This describes some basic information about the Resource, such as name, description, format and size. Depending on the dataset, some fields may be a repetition of information from Level 2, or it may be different. For example, if a dataset is split into different language files, then the Languages in Level 2 may be 'German, Dutch and French', while the language of the Resource representing the German section will just be 'German'. However, if the all of the Resources were a mix of the three languages then both Level 2 and all Resources would have 'German, Dutch and French' for their Languages. 
 
   * Name - the name of the Resource. This should distinguish it from other Resources. For example, 'Wartime Radio - audio files', and 'Wartime Radio - transcripts'.
-  * Description - a description of the particular Resource. This should describe what is in the Resource, if this is different to the whole dataset. It often contains information on how the Resource was created. For example, if a dataset contains a Resource that is a set of persons detected in letters, then the Resource Description could explain how Named Entity Recognition was used to detect the persons. The description also often contains information on how to use the Resource. 
-  * Path - the URL where the Resource can be found
+  * Description - a description of the particular Resource. This should describe what is in the Resource, if this is different to the whole dataset. It often contains information on how the Resource was created. For example, if a dataset contains a Resource that is a set of persons detected in letters, then the Resource Description could explain how Named Entity Recognition was used to detect the persons. The description also often contains information on how to use the Resource. See the [guidelines](guidelines.md) for how this description differs from the description on Level 2.
+  * Path - the URL where the Resource can be found. E.g. https://zenodo.org/records/14848884
   * Format - one or more file extensions that are in the Resource, e.g. csv, json, xls
   * Size - the size of the Resource (if it is downloadable)
   * Date - the date on which the Resource was created
@@ -216,7 +252,7 @@ It is not per se necessary to include information about technical updates to sto
 * Data modality
     * Modality - one or more data modality (e.g. image, text) selected from a vocabulary. The option 'Multimodal' means that the dataset is inherently a combination of multiple types together. For example if a dataset contains a video with in-screen subtitles, then that video is a combination of the modes of video and text, which can't be separated, and is therefore multimodal. For a dataset with videos and separate subtitle files, you can select both 'video data' and 'text data' as the modalities.
     * Other Modalitie(s) - if the vocabulary does not contain appropriate modalities, then they can be filled in here
-* Descriptive statistics - this can be used to describe the Resource with statistics, e.g. how many persons, how many different countries, the distribution over time. It can also be used to link to a page where statistics are published.
+* Descriptive statistics - this can be used to describe the Resource with statistics, e.g. how many persons, how many different countries, the distribution over time. It can also be used to link to a page where statistics are published. E.g. '72000 scans, 101 inventory numbers, 297 shipmaster names, 275 ship names, 6 different languages (uncertain)' or 'See the Amateurfilms page on data.beeldengeluid.nl (see links in Section 2.4) for various statistics' 
 
 ## 3.2 Data Fields
 These describe the individual data fields in the Resource. For example, for a spreadsheet the column and/or row headers could be described. It is also possible to link to a schema that describes the Resource structure, instead of describing the individual data fields.
@@ -243,20 +279,43 @@ Each data field can have the following information:
 
 * Data Field name - label or identifier of the data field
 * Data Field Type - The type of the field, for example common ones are string, integer, boolean.
-* Description of the data field - a description of what the field represents, including any specific details about the data format or structure. If the field involves complex data like span indices, explain whether these indices are based on characters or words, and whether they are contiguous (continuous without breaks) or not. 
+* Description of the data field - a description of what the field represents, including any specific details about the data format or structure. E.g. 'Name of the ship. If a place of origin is known it is mentioned behind the ship name in brackets; ship names in more than one language are listed next to each other'
 * Sensitivity - this indicates whether the data stored in this specific field is sensitive. Sensitive data might include personal information that could be harmful if exposed, such as social security numbers, personal addresses, or health information. This helps users to distinguish between sensitive and non-sensitive fields. More detailed information about the sensitivity at the dataset level can be included in section 3.7.
 * Notable Features - any important or unique attributes of the field that might be relevant for users or systems interacting with the data
 * Used Vocabularies - if a field uses a taxonomy or vocabulary then this can be described here
-  * Vocabulary - a summary of the linked open data scheme, controlled vocabulary, ontology or taxonomy used during the establishment of the dataset
-  * Vocabulary link - a link to the taxonomy or relevant documentation that describes it
+  * Vocabulary - a summary of the linked open data scheme, controlled vocabulary, ontology or taxonomy used during the establishment of the dataset. E.g. 'GTAA - Person scheme'
+  * Vocabulary link - a link to the taxonomy or relevant documentation that describes it. E.g. 'https://data.beeldengeluid.nl/datasets/gtaa'
 
 ## 3.3 Data Point Examples
 ### Typical Example
 
 Here you can include an example of how the data typically appears in the Resource. You can copy and paste text or numerical data, or a row from tabular data, or you can describe the example (e.g. a recording of the 8pm broadcast of the daily news, recorded on 15th November 2004). If data points can be linked to, include the link so that users can examine it themselves.
 
-* Description - a description of a typical example of a data point
+* Description - a description of a typical example of a data point. E.g. 'Broadcast of an amusement program', or ''
 * Link - a link to the data point
+
+Examples
+
+A descriptive description:
+
+    a recording of the 8pm broadcast of the daily news, recorded on 15th November 2004
+
+A copy of a data point:
+
+    <indexRecord id="saaId24681019">
+    <toegangsnummer>5001</toegangsnummer>
+    <inventarisnummer>7</inventarisnummer>
+    <datering>1643</datering>
+    <kind><voornaam>Marija</voornaam></kind>
+    <doopdatum>1635-01-25</doopdatum>
+    <kerk>Oude Kerk</kerk>
+    <godsdienst>Hervormd</godsdienst>
+    <vader><voornaam>Joost</voornaam><tussenvoegsel>van den</tussenvoegsel><achternaam>Boogaert</achternaam></vader>
+    <moeder><voornaam>Angnieta</voornaam><achternaam>Selijs</achternaam></moeder>
+    <bronverwijzing>DTB 7, p.27</bronverwijzing>
+    <urlScan>https://archief.amsterdam/inventarissen/inventaris/5001.nl.html#A28220000016.jpg</urlScan>
+    </indexRecord>
+
 
 ### Atypical Example
 
