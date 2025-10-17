@@ -1,13 +1,18 @@
   # Guidelines
-  There are no hard and fast rules for applying data-envelopes. How you structure and fill in information about your datasets will depend to a large extent on the type of data you have and the     sort of users. Keep in mind that the aim of a data-envelope is to inform your user so that they can correctly use the dataset. The data-envelop should present the necessary information as        clearly and succinctly as possible.
-  Below are some guidelines that can help you when making decisions. The Data-Envelope format is in development and its use in practice is being thoroughly tested. As a result, these guidelines    will evolve.
+  Before reading these guidelines, first read about the [concept of data-envelopes](concept.md).
+
+  There are no hard and fast rules for creating data-envelopes for your data. How you structure and fill in information about your datasets will depend to a large extent on the type of data you have and the sort of users. Keep in mind that the aim of a data-envelope is to inform your user so that they can find and correctly use the dataset. The data-envelop should present the necessary information as clearly and succinctly as possible.
+  
+  Below are guidelines that can help you when making decisions. The data-envelope format is in development and its use in practice is being thoroughly tested. As a result, these guidelines will evolve.
+
+  If you need specific help with filling in a data-envelope in the Huygens editor, read the [help documentation](help_documentation.md)
   
   ## Why do I create a data-envelope?
-  You create a data-envelope when it is important that information about the dataset is available in a structured way. Possible scenarios are:
+  You create a data-envelope to make key information about the dataset available in a structured way. Possible scenarios are:
 
   * The dataset is published for reuse
   * The dataset will be reused internally
-  * The dataset is used for a software application and you want to give application users transparency about how the application works
+  * The dataset is used in a software application and you want to give application users transparency about how the application works
   * Information about the dataset is scattered over many sources and you want to have it in one place
   * Information about the dataset is largely in the heads of human experts who may leave your organisation
   * You want to make it easier to produce lots of different formats of the description
@@ -19,11 +24,11 @@
   Data-Envelopes are intended to describe datasets. But what is a dataset? This is a very hard question to answer. A practical approach is to think about your users. What is a unit of data that is useful to them? This could be a huge database or a single file listing persons.
 
   ## My data is not available online. Do I still need a data-envelope?
-  It can still be useful to use a data-envelope to describe datasets even if they are not available online. This can have the following benefits:
+  It can still be useful to use a data-envelope to describe a dataset even if it is not available online. This can have the following benefits:
 
   * People know that the dataset exists and how to request offline access
-  * People know that the dataset exists and for what reasons it cannot be used (e.g confidentiality)
-  * People know that the dataset exists but that something is required to be done before it is available online (e.g. digitisation)
+  * People know that the dataset exists and for what reasons it cannot be made available (e.g confidentiality)
+  * People know that the dataset exists but that more work must be done before it is available online (e.g. digitisation)
   * People get in touch with you to show their interest in the dataset - this can be very valuable when lobbying for funding
   
   ## When do I create a data-envelope?
@@ -36,12 +41,14 @@
   A dataset is a conceptual thing. You can describe a dataset that doesn't exist yet, or that doesn't exist anymore. A Resource is something that exists and that a user can use to work with the actual data. For example a downloadable file, a portal via which the user can explore the dataset, an API or endpoint that provides programmatic access.
 
   ## Do I need a Resource at all?
-  Yes! The Resource contains essential information about errors, sensitivity and bias of the dataset. However, if your data is simple then there are many fields in Level 3 that you can leave empty, such as the data fields and data point examples. 
+  Yes! The Resource contains essential information about how to access the dataset, and the errors, sensitivity and bias of the dataset. However, if your data is simple then there are many fields in Level 3 that you can leave empty, such as the data fields and data point examples. 
   
   ## When do I use multiple Resources?
-  Use multiple resources when there are different ways that the user can work with the data and they differ substantially. This depends on the type of your data and on what your users want to do with it/are allowed to do with it. Your main aim is to give clear information to the user. If it is clearer to split things into multiple Resources then do so, if it is clearer to describe them all together in one Resource, then do that.
+  Use multiple resources when there are different means available to the user to work with the data and they differ substantially, or when data is available in sections. This depends on the type of your data and on what your users want to do with it/are allowed to do with it. Your main aim is to give clear information to the user. If it is clearer to split things into multiple Resources then do so, if it is clearer to describe them all together in one Resource, then do that.
 
-  One simple rule of thumb: If you have one Resource and your Resource description is getting very long or confusing, and you are putting lots of multiple values in the fields (e.g. many different formats, many different languages), then you should think about using multiple Resources. If you have multiple Resources and you are copy-pasting most of the information between them or referring frequently to other Resources, then consider combining them in one Resource. Problems with structuring the data in Resources may be a hint that your data is not suitably structured for users. For example, if your data is split into multiple files with separate download links but your separate Resources keep referring to each other, then it may be easier for the user if you combine the data into one zip file and describe it in one Resource. 
+  One simple rule of thumb: If you have one Resource and your Resource description is getting very long or confusing, and you are putting lots of multiple values in the fields (e.g. many different formats, many different languages), then you should think about using multiple Resources. If you have multiple Resources and you are copy-pasting most of the information between them or cross-referencing the other Resources, then consider combining them in one Resource. 
+  
+  Problems with structuring the data in Resources may be a hint that your data is not suitably structured for users. For example, if your data is split into multiple files with separate download links but your separate Resources keep referring to each other, then it may be easier for the user if you combine the data into one zip file and describe it in one Resource. 
 
   Cases in which you might use a single resource:
   * You have data available as PDF or JPEG. It is otherwise created in an identical way
