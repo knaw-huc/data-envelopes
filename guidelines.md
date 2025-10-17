@@ -32,22 +32,35 @@
   ## Who creates a data-envelope?
   The experts who know about the dataset. This can be one person but frequently it is multiple persons. One may know how it was curated, another how it was digitised, another what the legal situation is. It is important to also include someone - preferably as the final editor - who has an affinity with the potential users of the dataset, as they can put the information in a form that is most useful to the user.
   
-  ## What is a Resource for? (Section 3 Data)
+  ## What is a Resource for? (Level 3 Data)
   A dataset is a conceptual thing. You can describe a dataset that doesn't exist yet, or that doesn't exist anymore. A Resource is something that exists and that a user can use to work with the data. For example a downloadable copy of the dataset, a portal via which the user can explore the dataset, an API or endpoint that provides programmatic access.
+
+  ## Do I need a Resource at all?
+  Yes! The Resource contains essential information about errors, sensitivity and bias of the dataset. However, if your data is simple then there are many fields in Level 3 that you can leave empty, such as the data fields and data point examples.
   
   ## When do I use multiple Resources?
   Use multiple resources when there are different ways that the user can work with the data and they differ substantially. This depends on the type of your data and on what your users want to do with it/are allowed to do with it. Your main aim is to give clear information to the user. If it is clearer to split things into multiple Resources then do so, if it is clearer to describe them all together in one Resource, then do that.
 
+  One simple rule of thumb: If you have one Resource and your Resource description is getting very long or confusing, and you are putting lots of multiple values in the fields (e.g. many different formats, many different languages), then you should think about using multiple Resources. If you have multiple Resources and you are copy-pasting most of the information between them, then consider combining them in one Resource.
+
   Cases in which you might use a single resource:
-  * You have data available as PDF or image. It is otherwise created in an identical way
+  * You have data available as PDF or JPEG. It is otherwise created in an identical way
+  * Your dataset is divided into sections, but they are all downloaded in one go in a zip file.
   * Your data is split into several different files but all are required to be able to work with the data properly
   * You have data that is accessible in an open access portal and a restricted access portal. The restricted access portal offers access to a few additional metadata fields. Otherwise the underlying data and how it was created is the same
   * Your dataset contains videos described with metadata. You can search for videos and when you click on a video you can read the metadata. The metadata and the videos cannot be downloaded separately from each other.
+  * The dataset is only available via a portal, which contains its own detailed instructions about how to use the different parts of the data within the portal.
+
 
   Cases in which you might use multiple resources:
   * You have data available as PDF or image. The PDFs are only available for a subset of the data due to technical issues and the images were subjected to many cleaning steps before the PDF was created
   * You have data available in three different languages and users are mainly only interested in downloading one language. 
   * You have data that is accessible in an open access portal and a restricted access portal. The open access portal has only a selection of the items available in the restricted access portal, and much less metadata. The data from the open access portal can be downloaded, the data in the restricted access portal may not be.
+  * Your dataset is divided into sections, each of which has its own download link.
+  * Your dataset is divided into sections that they are all downloaded in one go in a zip file, but each section has a lot of important information.
+  * Your dataset contains videos described with metadata. The metadata for the entire dataset can be downloaded separately.
     
   ## When do I use multiple data-envelopes?
+
+  ## What is the difference between the Description in Level 2 and the Description in Level 3?
   
