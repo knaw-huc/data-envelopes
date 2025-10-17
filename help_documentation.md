@@ -327,6 +327,19 @@ Here you can include an example of known oddities or outliers in the Resource.
 ## 3.4 Errors, Noise and Redundancies
 Here any errors, noise, gaps or redundancies in the Resource can be described. For example, if all data from a particular country is missing for the second half of the temporal scope, or if some dates are uncertain. Do not include biases in the data here, these should be mentioned in Section 3.7.
 
+Example for missing data:
+
+    The transcripts cover the vast majority of these scans, the exceptions being:
+
+    the initial pages of filza (folder) 02 are not transcribed, the transcripts start at page 71;
+    the entire filza 9b (marked as 9-bis) is not transcribed.
+
+    The pages with missing scans are:
+
+    filza 9, pages 120r and 120v;
+    filza 12, pages 278r and 278v.
+    There are no transcripts for these pages.
+
 ## 3.5 External Resources
 The dataset may link to external resources. For example, to pages on Wikidata describing persons, or to images stored in an image bank, or to documents in a digital archive. 
 
@@ -334,15 +347,18 @@ The dataset may link to external resources. For example, to pages on Wikidata de
 * External Resources Description - this specifies what external resources are linked to, and how and why the dataset relies on them. 
 * External Resources Links - this provides links to the external resources (at the level of the source, not an individual resource. For example, Wikidata, not the individual persons in Wikidata)
 
+E.g.:
+    Concepts in the GTAA thesaurus https://data.beeldengeluid.nl/datasets/gtaa
+
 ## 3.6 Annotation and Labelling
 The original data in the dataset may have been enriched by annotating or labelling it with extra information. This may be done by humans or machines. For example, experts may have labelled letters with the persons mentioned in the letters, or an algorithm may have detected persons in the letters. These annotations can be described in this section.
 
 ### Annotation Characteristics
 This section can be repeated for each type of annotation performed.
 
-* Annotation workforce type - the type of humans, or machines, that performed the annotation, from a vocabulary
+* Annotation workforce type - the type of humans, or machines, that performed the annotation, selected from a vocabulary. E.g. 'Human Annotations (Expert, Employees)'
 * Others - if the workforce type was not in the vocabulary, it can be filled in here
-* Description - a description of the annotation that was performed
+* Description - a description of the annotation that was performed. E.g. 'Experts transcribed the scanned letters'
 * Total Annotations - the total number of annotations
 * Total Tokens - the total number of tokens that were used in the annotations
 * Avg Tokens Annotations - the average number of tokens per annotation
@@ -351,7 +367,7 @@ This section can be repeated for each type of annotation performed.
 ## 3.7 Social Impact, Sensitivity and Biases
 
 ### Safety Consideration
-Here you can answer, with yes or no, the question 'Does the resource contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'. If the answer is yes, then you can specify how and why. For example, a dataset from colonial times may contain offensive language and stereotypes.
+Here you can answer, with yes or no, the question 'Does the resource contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'. If the answer is yes, then you can specify how and why. E.g. 'The diary entries reflect the views of the time' or 'Descriptions may contain offensive terms'
 
 ### Confidentiality
 Here you can answer, with yes or no, the question 'Is the dataset confidential?'. If the answer is yes, then you can specify what measures were taken to avoid disclosure of personal information. 
@@ -362,6 +378,8 @@ Known Biases in the Resource - Identify any known biases present in this dataset
 
 Steps taken to Mitigate/Reduce Biases - Describe the steps taken to reduce or mitigate biases in the dataset.
 
+E.g. 'This is the correspondence of a member of the royal family, so it does not offer a representative view of society at the time.'
+
 ### Sensitive Attributes
 
 * Sensitive Human Attributes - Specify if the dataset contain data that might be considered sensitive in any way (e.g., data that reveals race, sexual orientation, age, ethnicity, disability status, political orientation, religious beliefs, union memberships; location; financial or health data; biometric or genetic data; criminal history). You can choose from a list of sensitive attributes or choose 'Others'
@@ -371,8 +389,8 @@ Steps taken to Mitigate/Reduce Biases - Describe the steps taken to reduce or mi
 ### Ethical Review
 
 * Review - an indication, yes or no, if an ethical review was carried out
-* Description - if an ethical review was carried out, enter a brief description of the ethical review (e.g. who carried it out and when, any reference number or other identifier)
-* Outcomes - the outcomes of the review and how they influenced the dataset creation
+* Description - if an ethical review was carried out, enter a brief description of the ethical review (e.g. who carried it out and when, any reference number or other identifier). 
+* Outcomes - the outcomes of the review and how they influenced the dataset creation. E.g. 'The publication was deemed lawful. An advert was placed making people aware of the plans to publish the residential registration cards and allowing them to object to their card being made available, within 6 weeks of the advert being placed.'
 * Link - link to any further information about the ethical review
 * Ethical Review Contact - a person who may be contacted in relation to questions on ethical review
   * Name - full name of the person
@@ -399,12 +417,14 @@ For each source used, the following information may be filled in:
 * Geographical scope -  the geographical scope of the source
 * Notable features - any notable features and known biases and issues with the source
 * Datasheet/data-envelope - a link to a datasheet/data-envelope on the source 
-
 * Data Selection - how data was selected from the source to be used in the current dataset. For example "all documents of the type 'letter' were selected"
 
 
 ## 3.9 Digitisation
-Describe the pipeline used for digitisation. If applicable, describe in what way digitisation presents another layer of selection of the whole of a collection available in a cultural heritage institution; state if this is not the case. If applicable, provide selection criteria and metrics that demonstrate how this additional layer of selection has influenced the transformation of the original collection or dataset into the current dataset. For example "thin letters were scanned using an automatic feed, while thicker letters were manually scanned. Letters with a large format did not fit into the scanner, so they are not included in this dataset."
+Describe the pipeline used for digitisation. If applicable, describe in what way digitisation presents another layer of selection of the whole of a collection available in a cultural heritage institution; state if this is not the case. If applicable, provide selection criteria and metrics that demonstrate how this additional layer of selection has influenced the transformation of the original collection or dataset into the current dataset. 
+
+Example:
+    All residential registration cards were digitally scanned. Most were scanned with automatic feed. A number of thicker cards were manually scanned. Image optimisation was applied to the           scanned images, using a light and dark profile, determined by the pixel values of the scan. As the digital scans were intended to replace the paper originals, many checks were performed on       the scans. For details, see the 'Overbrenging Amsterdamse woningkaarten 1954-1989' report linked in Section 2.4 
 
 ## 3.10 Feedback and Elaboration
 Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful 
@@ -415,17 +435,27 @@ This level describes the uses for which the dataset was designed, what it has be
 * Purposes - one or more purposes of the dataset can be selected from a vocabulary. If no relevant purpose is included, you can select 'Other'
 * Other - if other was selected then the purpose can be specified here
 * Domain(s) of Application - the domains for which the dataset was designed can be specified using a vocabulary
-* Motivating Factor(s) and Problem space(s) - What motivated the creation of this dataset? Did the creators already have a specific use in mind? Provide a description of the specific problem space that this dataset intends to address
+* Motivating Factor(s) and Problem space(s) - What motivated the creation of this dataset? Did the creators already have a specific use in mind? Provide a description of the specific problem space that this dataset intends to address. E.g. 'The diaries were published to aid historical research. The books were digitised as part of work to make the entire RGP (Rijks Geschiedkundige Publicatien) series belonging to the Huygens Institute digitally available. '
 
 ## 4.1 Uses
-* Dataset Use - one or more types of use of the dataset can be selected from a vocabulary.
+There may be multiple types of use possible for the dataset, e.g. research and production, so this section can be repeated per use.
+
+* Dataset Use - one or more types of use of the dataset can be selected from a vocabulary. E.g. 'Safe for research use'
 * Explain for special cases chosen above - If a special use has been selected, then this can be explained here.
 * Links to Related Items
   * Publications - URL(s) or descriptions of publication(s) introducing or describing the dataset
   * Related datasets - dataset(s) that use this dataset
   * Model trained by dataset - model(s) that were trained on this dataset
 * Suitable use cases - one or more cases for which the dataset is suitable. These can be existing or proposed uses. Links can be included where appropriate, for example to a web application that uses the dataset. Additional notes can be filled in 
-* Unsuitable use cases - one or more cases for which the dataset is unsuitable. This may be due to legal or ethical reasons, to quality or bias issues, choices made by the dataset owner etc. Additional notes can be filled in 
+* Unsuitable use cases - one or more cases for which the dataset is unsuitable. This may be due to legal or ethical reasons, to quality or bias issues, choices made by the dataset owner etc. Additional notes can be filled in
+
+Example of a suitable case:
+
+    Researching or writing about game history or the game industry
+
+Example of an unsuitable case:
+
+    Searching for word frequencies or word use, due to OCR errors.
 
 ## 4.2 Use with Other Data
 Datasets that are safe to use on their own may not be suitable to use with other data. For example, combining sets of data about anonymised persons may allow the persons to be identified.
@@ -485,8 +515,8 @@ For creators and contributors, you can fill in relevant information in Section 5
   * Task type - a summary of the task type. Include links if available. Ideally connect to some existing taxonomy: survey, video annotation, text annotation, image annotation, etc
   * Number of unique annotators
   * Average number of Annotations per Annotator
-  * Expertise of annotators - for example, archival and historical knowledge and reading and understanding historical Dutch
-  * Description of annotators
+  * Expertise of annotators - for example, 'archival and historical knowledge and reading and understanding historical Dutch' or 'None'
+  * Description of annotators - e.g. 'The annotators were all experts working in archives or in historical research.' or 'Employees of contractor in India, non-Dutch speaking' 
   * Compensation - how they annotators were compensated for their effort. Indicate here whether they were crowdsourced or not, and if not, what compensation they received. For example, 'compensated as per the Dutch CAO'.
   * Language distribution of annotators - what were the languages spoken by the annotators?
   * Num Language Distrib - how many annotators spoke each language?
@@ -495,13 +525,15 @@ For creators and contributors, you can fill in relevant information in Section 5
   * Geographical distribution of annotators - where the annotators reside. For example, 100% reside in the Netherlands.
   * Gender distribution of annotators - For example, 60% identify as women, 40% as men.
   * Socio-economic distribution of annotator. For example, 40% identify as lower middle class, 60% as middle class.
-  * Summary of annotation instructions - what instructions the annotators were given in how to carry out the annotation task.  Include links, say to the annotation instructions, readme.
+  * Summary of annotation instructions - what instructions the annotators were given in how to carry out the annotation task.  Include links, say to the annotation instructions, readme. E.g. 'See https://suriano.huygens.knaw.nl/about/ for the transcription rules'
   * Annotation platform(s) - which platform(s) were used to create the annotations. Include links 
   * Additional Notes - Any other comments. For example: 'During the annotation process all annotators were trained to read and understand the original texts by the archival expert and were invited to compare the HTR texts with the scans of the original. This way of working proved instrumental in overcoming limitations of HTR quality'.
 
   ## 5.2 Creators and Contributors
   ### Description of potential positionality impact factors
   This section can include any aspects that could have impact on the work in terms of positionality of the creators and contributors, e.g. particular domain of expertise, gender, age, etc. As it can be hard to judge what may have an impact, one option is to give a short bio for each creator/contributor. Be careful of privacy aspects.
+
+  E.g. 'The creators and contributors were student assistants and researchers employed at the Dutch universities of Amsterdam and Leiden'
 
   ## 5.3 Feedback and Elaboration
   Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful
