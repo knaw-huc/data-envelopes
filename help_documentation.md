@@ -30,7 +30,7 @@ At the top of the data-envelope there is some basic administrative information
 # Level 1 Basic Information
 This level describes the data-envelope itself and the dataset contact person.
 
-## 1.1. Title of Data-Envelope
+## 1.1. Title of Data-Envelope<a id='level-1-title'></a>
 A title for the data-envelope, NOT the dataset. Follow the format: Dataset Name Version-X Data-Envelope Version-Y. 
 
     Baptism Registers Amsterdam Version-1 Data-Envelope Version-1
