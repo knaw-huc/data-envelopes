@@ -37,7 +37,7 @@ A title for the data-envelope, NOT the dataset. Follow the format: Dataset Name 
 
 The first version number refers to the version of the dataset being documented, the second version number refers to the version of the documentation itself. Typically the version number is '1' for the first version of the dataset or the envelope. You can agree a numbering system with your team.
 
-## 1.2 Contact Details
+## 1.2 Contact Details<a id='level-1-contact'></a>
 This should contain information about the contact person for the dataset.
 
 * Name - The full name of the contact person
@@ -45,27 +45,27 @@ This should contain information about the contact person for the dataset.
 * Role in project - You can define one or more roles that the contact person played in the creation of the dataset. Leave empty if no roles are applicable.
 * Email - an email address for the contact person. The recommendation is to use a general institutional address to avoid problems when people move to new institutions. E.g. data@myinstitution.org
 
-## 1.3 Data Envelope Dates
+## 1.3 Data Envelope Dates<a id='level-1-dates'></a>
 This contains the dates for the data-envelope
 
 * Data-Envelope Creation Date - the date on which the data-envelope was created
 * Data-Envelope Completion Date - the date on which the data-envelope was completed
 * Data-Envelope Publication Date - the date on which the data-envelope was published
 
-## 1.4 Author of Data-Envelope
+## 1.4 Author of Data-Envelope<a id='level-1-author'></a>
 This should contain information about the primary author of the data-envelope itself.
 
 * Name - the full name of the primary author
 * ORCID ID - If available, the [ORCID](http://orcid.org) identifier for the primary author
 * Email - an email address for the primary author. The recommendation is to use a general institutional address to avoid problems when people move to new institutions. E.g. data@myinstitution.org
 
-## 1.5 Feedback and elaboration
+## 1.5 Feedback and elaboration<a id='level-1-feedback'></a>
 Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful. For example, you could indicate to what extent the necessary information for the data-envelope was easily available: was this a current project with experts available to answer all the questions, or is it data from fifty years ago for which the description has been pieced together from old documentation sources? You can also indicate what information sources you used to fill in the data-envelope, if you wish. 
 
 # Level 2 Basic Metadata
 Level 2 describes the dataset at a conceptual level. It is the 'trailer' that allows users to assess if the dataset is relevant to them, and as such it should be concise (preferably max 200 words). This level describes the basic dataset metadata. This includes: what the dataset contains, what the temporal and geographical coverage are, how it can be accessed etc. This section conforms to the Data Catalog Vocabulary (DCAT) standard, ensuring compatibility with machine-readable formats.
 
-## 2.1 Snapshot
+## 2.1 Snapshot<a id='level-2-snapshot'></a>
 This contains information about what is in the dataset.
 
 There is some discussion as to what should be included in the temporal and geographical coverage. For example, for a collection of letters the geographical coverage could refer to the locations the letters were sent to/from, or the locations discussed in the letters. Try to think about what information is most useful for users of the dataset. 
@@ -91,7 +91,7 @@ This refers to the temporal coverage of the content of the dataset, not the date
 * Year - in the case that the temporal scope cannot be captured in a range, this field allows you to specify the individual years that are relevant to the scope of the dataset
 * Additional Notes - Specify any additional information about the temporal scope of the dataset. This could include gaps in the coverage, or years that contain more data than others.
 
-## 2.2 Dates
+## 2.2 Dates<a id='level-2-dates'></a>
 These dates refer to the time span during which the dataset was created. For example, the start and end date of the project to collect and digitise the data. The date on which the dataset is published is also specified. Note: these dates could conincide with the temporal coverage, for example if the dataset contains tweets collected daily. But usually it is later; for example a dataset may contain interviews recorded this year that discuss the Second World War.
 
 A dataset may have been worked on in several phases. If they are all part of the same project, then choose the earliest and latest dates to enter here, and if you wish you can explain in more detail in Section 2.7. If they are distinct projects - for example if your dataset is a digitised book of nineteenth century diaries that was published in the 1980s and digitised in 2023 - then choose the project that is most relevant to the dataset you are describing (in this case, the digitisation). 
@@ -100,7 +100,7 @@ A dataset may have been worked on in several phases. If they are all part of the
 * Date To - when work on the dataset was complete
 * Date Published - when the dataset was published
 
-## 2.3 Creators and Contributors
+## 2.3 Creators and Contributors<a id='level-2-contributor'></a>
 In this section you can list the people who contributed to the creation of the dataset, for example by curating data, managing the project, providing functing etc. 
 
 ### Publishing Organisation
@@ -136,7 +136,7 @@ Here you can fill in persons, organisations or other funding sources that funded
 * Funding or grant summary - a short summary of person or organisation and grant that funded the creation, collection, or curation of the dataset. Include any reference numbers.
 * Link - a link to any further information about the funding
 
-## 2.4 Distribution
+## 2.4 Distribution<a id='level-2-distribution'></a>
 This section specifies where you can get the dataset or further information about the dataset, information on available downloads and on how to cite the dataset
 
 * Dataset Link - This is a link that identifies the dataset. For instance its DOI, Handle, or ARK
@@ -157,7 +157,7 @@ For items within a dataset (in this example letters):
 
     A [name of correspondent] to B [name of correspondent], date [date of letter or  document], The Correspondence of William of Orange nr. [number of letter or document], date consulted. URL[number]. Example: [Willem van] Oranje to Filips van Hessen, 12-12-1560, The Correspondence of William of Orange nr. 5097, 8-2-2005. URL
 
-## 2.5 Licenses and Accesses
+## 2.5 Licenses and Accesses<a id='level-2-licence'></a>
 This section tells you how you can access the dataset and under which licence(s) it may be used. Access may be direct or via a portal application. A dataset can have multiple access/licence combinations. For example, it may be browsable via an Open Access portal, while content may be downloadable via a Restricted Access portal with a licence permitting reuse.
 
 A licence should not only be specified when access is restricted, but also when access is open. The licence determines what the user is allowed to do with the dataset. No license is ambiguous. In the absence of a licence, users could assume they can do anything they want, or they could assume they cannot do certain things that may actually be permitted. 
@@ -192,7 +192,7 @@ If the level is not open access, then you can enter more information about how a
 * Contact email -  email for users to reach out with any questions or concerns regarding data access
 * Access prerequisites - a description of the prerequisites for access E.g., users must be affiliated with a research organisation
 
-## 2.6 Dataset Version and Maintenance
+## 2.6 Dataset Version and Maintenance<a id='level-2-version'></a>
 ### Version
 
 * Current Version - the current version of the dataset. Fill in a number here. Typically this is '1' for the first version of the dataset. You can agree a numbering system with your team. This should be the same as the version number in 2.1.
@@ -225,7 +225,7 @@ It is not per se necessary to include information about technical updates to sto
  
       This dataset will not be further updated or enlarged.
 
-  ## 2.7 Feedback and Elaboration
+  ## 2.7 Feedback and Elaboration<a id='level-2-feedback'></a>
   Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful 
 
   # Level 3 Data
@@ -235,7 +235,7 @@ It is not per se necessary to include information about technical updates to sto
 
  Level 3 gives the opportunity to fill in a lot of detail, which may not be necessary for all datasets. Fill in as much as you think is useful to your users.
 
-  ## 3.1 Data Resource Description
+  ## 3.1 Data Resource Description<a id='level-3-data-resource-description'></a>
   This describes some basic information about the Resource, such as name, description, format and size. Depending on the dataset, some fields may be a repetition of information from Level 2, or it may be different. For example, if a dataset is split into different language files, then the Languages in Level 2 may be 'German, Dutch and French', while the language of the Resource representing the German section will just be 'German'. However, if the all of the Resources were a mix of the three languages then both Level 2 and all Resources would have 'German, Dutch and French' for their Languages. 
 
   * Name - the name of the Resource. This should distinguish it from other Resources. For example, 'Wartime Radio - audio files', and 'Wartime Radio - transcripts'.
@@ -254,7 +254,7 @@ It is not per se necessary to include information about technical updates to sto
     * Other Modalitie(s) - if the vocabulary does not contain appropriate modalities, then they can be filled in here
 * Descriptive statistics - this can be used to describe the Resource with statistics, e.g. how many persons, how many different countries, the distribution over time. It can also be used to link to a page where statistics are published. E.g. '72000 scans, 101 inventory numbers, 297 shipmaster names, 275 ship names, 6 different languages (uncertain)' or 'See the Amateurfilms page on data.beeldengeluid.nl (see links in Section 2.4) for various statistics' 
 
-## 3.2 Data Fields
+## 3.2 Data Fields<a id='level-3-data-fields'></a>
 These describe the individual data fields in the Resource. For example, for a spreadsheet the column and/or row headers could be described. It is also possible to link to a schema that describes the Resource structure, instead of describing the individual data fields.
 
 If the data fields are described in the Resource file itself or they are self-explanatory, then you can skip this section.
@@ -286,7 +286,7 @@ Each data field can have the following information:
   * Vocabulary - a summary of the linked open data scheme, controlled vocabulary, ontology or taxonomy used during the establishment of the dataset. E.g. 'GTAA - Person scheme'
   * Vocabulary link - a link to the taxonomy or relevant documentation that describes it. E.g. 'https://data.beeldengeluid.nl/datasets/gtaa'
 
-## 3.3 Data Point Examples
+## 3.3 Data Point Examples<a id='level-3-examples'></a>
 ### Typical Example
 
 Here you can include an example of how the data typically appears in the Resource. You can copy and paste text or numerical data, or a row from tabular data, or you can describe the example (e.g. a recording of the 8pm broadcast of the daily news, recorded on 15th November 2004). If data points can be linked to, include the link so that users can examine it themselves.
@@ -324,7 +324,7 @@ Here you can include an example of known oddities or outliers in the Resource.
 * Description - a description of an atypical example of a data point
 * Link - a link to the data point, if possible
 
-## 3.4 Errors, Noise and Redundancies
+## 3.4 Errors, Noise and Redundancies<a id='level-3-errors'></a>
 Here any errors, noise, gaps or redundancies in the Resource can be described. For example, if all data from a particular country is missing for the second half of the temporal scope, or if some dates are uncertain. Do not include biases in the data here, these should be mentioned in Section 3.7.
 
 Example for missing data:
@@ -340,7 +340,7 @@ Example for missing data:
     filza 12, pages 278r and 278v.
     There are no transcripts for these pages.
 
-## 3.5 External Resources
+## 3.5 External Resources<a id='level-3-external'></a>
 The dataset may link to external resources. For example, to pages on Wikidata describing persons, or to images stored in an image bank, or to documents in a digital archive. 
 
 * Resources - this states if the dataset contains links to external resources, yes or no
@@ -350,7 +350,7 @@ The dataset may link to external resources. For example, to pages on Wikidata de
 E.g.:
     Concepts in the GTAA thesaurus https://data.beeldengeluid.nl/datasets/gtaa
 
-## 3.6 Annotation and Labelling
+## 3.6 Annotation and Labelling<a id='level-3-annotation'></a>
 The original data in the dataset may have been enriched by annotating or labelling it with extra information. This may be done by humans or machines. For example, experts may have labelled letters with the persons mentioned in the letters, or an algorithm may have detected persons in the letters. These annotations can be described in this section.
 
 ### Annotation Characteristics
@@ -364,7 +364,7 @@ This section can be repeated for each type of annotation performed.
 * Avg Tokens Annotations - the average number of tokens per annotation
 * Metric - 
 
-## 3.7 Social Impact, Sensitivity and Biases
+## 3.7 Social Impact, Sensitivity and Biases<a id='level-3-social'></a>
 
 ### Safety Consideration
 Here you can answer, with yes or no, the question 'Does the resource contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'. If the answer is yes, then you can specify how and why. E.g. 'The diary entries reflect the views of the time' or 'Descriptions may contain offensive terms'
@@ -397,7 +397,7 @@ E.g. 'This is the correspondence of a member of the royal family, so it does not
   * Affiliation - organisation that the person works for
   * Email - their email address
 
-## 3.8 Data Provenance
+## 3.8 Data Provenance<a id='level-3-prov'></a>
 The dataset may have used one or more sources in its creation. For example, a set of digital scans of letters is produced by scanning the original paper source of the letters. 
 
 Note that this is different to 3.5 External Resources. Sources in Section 3.8 were used as inputs to create the dataset. Sources in Section 3.5 are referred to within the dataset to enrich it. For example, if an archive of paper letters is digitised and the scans are made available as a digital dataset, then the original paper archive would be referenced in 3.8. If the digital scans are linked to Wikidata biographies of the persons discussed, then Wikidata would be included in 3.5 as an External Resource. 
@@ -420,16 +420,16 @@ For each source used, the following information may be filled in:
 * Data Selection - how data was selected from the source to be used in the current dataset. For example "all documents of the type 'letter' were selected"
 
 
-## 3.9 Digitisation
+## 3.9 Digitisation<a id='level-3-digitisation'></a>
 Describe the pipeline used for digitisation. If applicable, describe in what way digitisation presents another layer of selection of the whole of a collection available in a cultural heritage institution; state if this is not the case. If applicable, provide selection criteria and metrics that demonstrate how this additional layer of selection has influenced the transformation of the original collection or dataset into the current dataset. 
 
 Example:
     All residential registration cards were digitally scanned. Most were scanned with automatic feed. A number of thicker cards were manually scanned. Image optimisation was applied to the           scanned images, using a light and dark profile, determined by the pixel values of the scan. As the digital scans were intended to replace the paper originals, many checks were performed on       the scans. For details, see the 'Overbrenging Amsterdamse woningkaarten 1954-1989' report linked in Section 2.4 
 
-## 3.10 Feedback and Elaboration
+## 3.10 Feedback and Elaboration<a id='level-3-feedback'></a>
 Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful 
 
-# 4 Uses
+# 4 Uses<a id='level-4-uses'></a>
 This level describes the uses for which the dataset was designed, what it has been used for and what are allowable uses of the dataset. It also lists unsuitable uses.
 
 * Purposes - one or more purposes of the dataset can be selected from a vocabulary. If no relevant purpose is included, you can select 'Other'
@@ -437,7 +437,7 @@ This level describes the uses for which the dataset was designed, what it has be
 * Domain(s) of Application - the domains for which the dataset was designed can be specified using a vocabulary
 * Motivating Factor(s) and Problem space(s) - What motivated the creation of this dataset? Did the creators already have a specific use in mind? Provide a description of the specific problem space that this dataset intends to address. E.g. 'The diaries were published to aid historical research. The books were digitised as part of work to make the entire RGP (Rijks Geschiedkundige Publicatien) series belonging to the Huygens Institute digitally available. '
 
-## 4.1 Uses
+## 4.1 Uses<a id='level-4-1-uses'></a>
 There may be multiple types of use possible for the dataset, e.g. research and production, so this section can be repeated per use.
 
 * Dataset Use - one or more types of use of the dataset can be selected from a vocabulary. E.g. 'Safe for research use'
@@ -457,7 +457,7 @@ Example of an unsuitable case:
 
     Searching for word frequencies or word use, due to OCR errors.
 
-## 4.2 Use with Other Data
+## 4.2 Use with Other Data<a id='level-4-uses'></a>
 Datasets that are safe to use on their own may not be suitable to use with other data. For example, combining sets of data about anonymised persons may allow the persons to be identified.
 
 It is often difficult to judge the safety of use with other data. If in doubt, select the 'Unknown' option. You can then leave the rest of the section empty.
@@ -467,7 +467,7 @@ It is often difficult to judge the safety of use with other data. If in doubt, s
 *  Known safe dataset(s) or data type(s) - a list of the known datasets (provide link) or data types and corresponding transformations that are safe to join or aggregate this dataset with
 *  Known unsafe dataset(s) or data type(s) - a list of the known datasets (provide link) or data types and corresponding transformations that are unsafe to join or aggregate this dataset with
 
-## 4.3 Use in ML or AI systems
+## 4.3 Use in ML or AI systems<a id='level-4-ai'></a>
 Datasets may or may not be suitable for use in ML or AI systems. This may be due to legal or ethical reasons, to quality or bias issues, choices made by the dataset owner etc. In this section you can indicate if usage for ML/AI is allowed and offer guidelines for good usage.
 
 It is often difficult to judge the suitability of data for ML/AI. If in doubt, select the 'Unknown' option. You can then leave the rest of the section empty.
@@ -479,7 +479,7 @@ It is often difficult to judge the suitability of data for ML/AI. If in doubt, s
 * Usage Guidelines - summary or link to usage guidelines or policies that users should be aware of in using this dataset for ML purposes
 * Data splits - Provide a description of any recommended data splits (e.g., training, development/validation, testing), explaining the rationale behind them
 
-## 4.4 Sampling
+## 4.4 Sampling<a id='level-4-sampling'></a>
 Datasets may or may not be suitable to be sampled. 
 
 It is often difficult to judge the suitability of data for sampling. If in doubt, select the 'Unknown' option. You can then leave the rest of the section empty.
@@ -491,7 +491,7 @@ It is often difficult to judge the suitability of data for sampling. If in doubt
 * Best Practice(s) - advice on best practices for sampling can be entered here. 
 * Risk(s) and Mitigation(s)- known or residual risks associated with sampling methods when applied to the dataset and how they can be mitigated.
 
-## 4.5 Feedback and Elaboration
+## 4.5 Feedback and Elaboration<a id='level-4-feedback'></a>
 Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful
 
 # Level 5 Human Perspective
@@ -503,7 +503,7 @@ The human perspective section is related to the bias section, but it has an impo
 
 The backgrounds of contributors can also affect the dataset. For example, if non-Dutch contributors transcribe Dutch place names, then there may be more errors than if native Dutch contributors performed the transcription. At the same time, a non-Dutch historical expert may be more successful in the transcription of historical documents than a Dutch layperson.
 
-## 5.1 Human Annotators
+## 5.1 Human Annotators<a id='level-5-annotator'></a>
 Human annotators - people who enriched the original data with extra information such as labels - have a large influence on the results of the annotation process. For this reason, it is important to know information about the annotators that may have influenced the results. For example, native Dutch speakers will have different results when annotating documents with Dutch placenames than native English speakers. Information about the annotation instructions is also important here, as the instructions can help in standardising responses over annotators, reducing their own influence on the results. 
 
 This section focuses on **who** created the annotations, not on **what** is in the annotations. A description of what was annotated can be entered in Section 3.6.
@@ -529,11 +529,11 @@ For creators and contributors, you can fill in relevant information in Section 5
   * Annotation platform(s) - which platform(s) were used to create the annotations. Include links 
   * Additional Notes - Any other comments. For example: 'During the annotation process all annotators were trained to read and understand the original texts by the archival expert and were invited to compare the HTR texts with the scans of the original. This way of working proved instrumental in overcoming limitations of HTR quality'.
 
-  ## 5.2 Creators and Contributors
+  ## 5.2 Creators and Contributors<a id='level-5-contributor'></a>
   ### Description of potential positionality impact factors
   This section can include any aspects that could have impact on the work in terms of positionality of the creators and contributors, e.g. particular domain of expertise, gender, age, etc. As it can be hard to judge what may have an impact, one option is to give a short bio for each creator/contributor. Be careful of privacy aspects.
 
   E.g. 'The creators and contributors were student assistants and researchers employed at the Dutch universities of Amsterdam and Leiden'
 
-  ## 5.3 Feedback and Elaboration
+  ## 5.3 Feedback and Elaboration<a id='level-5-feedback'></a>
   Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful
