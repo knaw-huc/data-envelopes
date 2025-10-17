@@ -85,10 +85,11 @@
   
   ## What is the difference between the Description in Level 2 and the Description in Level 3?
   Broadly, Level 2 describes the dataset as a concept. It is also the 'trailer' for the dataset, that helps users quickly decide if the dataset is relevant for them. Consequently, it should be as concise as possible. The description in Level 2 should include what is in the dataset, what topics it covers and why it is valuable. It may also briefly mention what means are available to use it (is it available to download, via a portal etc.) but details about this should be described in Level 3.
+  
   Level 3 typically contains the more detailed information that assists researchers in correct, responsible use of the dataset via one or more Resources (downloadable files, portals etc). The description therefore dives into more detail than Level 2 and may be longer. It sketches how the Resource was created, how it is structured, and how the Resource in question can be used to work with the data. 
 
   If you have multiple Resources, then some of the information about how they were created may be the same. It is then more suited to the Dataset level, and can be included in Level 2 to avoid duplication in the Resources (which causes problems if the information needs to be updated/corrected).
 
   ## Do I have to put all the information about my dataset in the data-envelope?
-  No! The data-envelope should be kept as concise as possible to make it easier for users to read it quickly. It must contain the key elements they need to assess whether the dataset is relevant and usable. It is not there to tell the whole story of a dataset, or as a detailed instruction manual. It is the central place for information about the dataset so it should refer to more detailed information that is available, for example publications, blogs, manuals.
+  No! The data-envelope should be kept as concise as possible to make it easier for users to read it quickly. It must contain the key elements they need to assess whether the dataset is relevant and usable. It is not there to tell the whole story of a dataset, or as a detailed instruction manual. It is the central place for information about the dataset so it should refer to more detailed information that is available, for example publications, blogs, manuals. Think of the analogy of an information leaflet for medicine. This contains the key information that you need to know, and will alert you to potential problems so that you can then go and find out more information, for example talk to your GP.
   
