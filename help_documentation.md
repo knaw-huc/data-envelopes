@@ -457,7 +457,7 @@ Example of an unsuitable case:
 
     Searching for word frequencies or word use, due to OCR errors.
 
-## 4.2 Use with Other Data<a id='level-4-uses'></a>
+## 4.2 Use with Other Data<a id='level-4-2-uses'></a>
 Datasets that are safe to use on their own may not be suitable to use with other data. For example, combining sets of data about anonymised persons may allow the persons to be identified.
 
 It is often difficult to judge the safety of use with other data. If in doubt, select the 'Unknown' option. You can then leave the rest of the section empty.
