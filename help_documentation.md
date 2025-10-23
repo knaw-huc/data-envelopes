@@ -16,14 +16,14 @@ For all other fields, the rule is to fill in as much as you reasonably can. Prio
 
 When you have completed the data-envelope, ask a colleague to review it. If they have access to the editor, then they can review it there. Otherwise, you can download a copy from the table (in PDF, HTML or CDMI format) and send this to them for review. 
 
-Once the data-envelope is completed, click on Submit. If any compulsory fields are not filled in, then error messages will appear
+Once the data-envelope is completed, click on Submit. The data-envelope will be validated. If any compulsory fields are not filled in, then error messages will appear. Otherwise, the data-envelope status will be set to 'publish'.
 
 # Administrative information
 At the top of the data-envelope there is some basic administrative information
 
 * Institute - select your institute
 * ID - this will be filled in automatically the first time you save the data-envelope
-* Status - this will be initialised to 'under construction' when you first save the envelope
+* Status - this will be initialised to 'under construction' when you first save the envelope, and updated to 'publish' once you successfully submit it.
 
 # Level 1 Basic Information
 This level describes the data-envelope itself and the dataset contact person.
