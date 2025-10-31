@@ -430,24 +430,24 @@ Example:
 Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful 
 
 # 4 Uses<a id='level-4-uses'></a>
-This level describes the uses for which the dataset was designed, what it has been used for and what are allowable uses of the dataset. It also lists unsuitable uses.
+This level describes the uses for which the dataset was designed, what it has been used for and what are suitable uses of the dataset according to the dataset provider. It also lists unsuitable uses.
 
 * Purposes - one or more purposes of the dataset can be selected from a vocabulary. If no relevant purpose is included, you can select 'Other'
 * Other - if other was selected then the purpose can be specified here
 * Domain(s) of Application - the domains for which the dataset was designed can be specified using a vocabulary
-* Motivating Factor(s) and Problem space(s) - What motivated the creation of this dataset? Did the creators already have a specific use in mind? Provide a description of the specific problem space that this dataset intends to address. E.g. 'The diaries were published to aid historical research. The books were digitised as part of work to make the entire RGP (Rijks Geschiedkundige Publicatien) series belonging to the Huygens Institute digitally available. '
+* Motivating Factor(s) and Problem space(s) - What motivated the creation of this dataset? Did the creators already have a specific use in mind? Provide a description of the specific problem space that this dataset intends to address. E.g. 'The diaries were published to aid historical research. The books containing the diary entries were digitised as part of work to make the entire RGP (Rijks Geschiedkundige Publicatien) series belonging to the Huygens Institute digitally available. '
 
 ## 4.1 Uses<a id='level-4-1-uses'></a>
-There may be multiple types of use possible for the dataset, e.g. research and production, so this section can be repeated per use.
+There may be multiple types of use possible for the dataset, e.g. both research and production, so this section can be repeated per use.
 
-* Dataset Use - one or more types of use of the dataset can be selected from a vocabulary. E.g. 'Safe for research use'
+* Dataset Use - the type of use of the dataset can be selected from a vocabulary. E.g. 'Safe for research use'
 * Explain for special cases chosen above - If a special use has been selected, then this can be explained here.
 * Links to Related Items
   * Publications - URL(s) or descriptions of publication(s) introducing or describing the dataset
   * Related datasets - dataset(s) that use this dataset
   * Model trained by dataset - model(s) that were trained on this dataset
-* Suitable use cases - one or more cases for which the dataset is suitable. These can be existing or proposed uses. Links can be included where appropriate, for example to a web application that uses the dataset. Additional notes can be filled in 
-* Unsuitable use cases - one or more cases for which the dataset is unsuitable. This may be due to legal or ethical reasons, to quality or bias issues, choices made by the dataset owner etc. Additional notes can be filled in
+* Suitable use cases - one or more cases for which the dataset is regarded as suitable by the dataset creator. These can be existing or proposed uses. Links can be included where appropriate, for example to a web application that uses the dataset. Additional notes can be filled in 
+* Unsuitable use cases - one or more cases for which the dataset is regarded as unsuitable by the dataset creator. It is useful to include the reason. This may be due to legal or ethical reasons, to quality or bias issues, policies of the dataset creator etc. Additional notes can be filled in.
 
 Example of a suitable case:
 
@@ -468,7 +468,7 @@ It is often difficult to judge the safety of use with other data. If in doubt, s
 *  Known unsafe dataset(s) or data type(s) - a list of the known datasets (provide link) or data types and corresponding transformations that are unsafe to join or aggregate this dataset with
 
 ## 4.3 Use in ML or AI systems<a id='level-4-ai'></a>
-Datasets may or may not be suitable for use in ML or AI systems. This may be due to legal or ethical reasons, to quality or bias issues, choices made by the dataset owner etc. In this section you can indicate if usage for ML/AI is allowed and offer guidelines for good usage.
+Datasets may or may not be suitable for use in ML or AI systems. This may be due to legal or ethical reasons, to quality or bias issues, policies of the dataset creator etc. In this section you can indicate if usage for ML/AI is allowed and offer guidelines for good usage.
 
 It is often difficult to judge the suitability of data for ML/AI. If in doubt, select the 'Unknown' option. You can then leave the rest of the section empty.
 
@@ -503,8 +503,10 @@ The human perspective section is related to the bias section, but it has an impo
 
 The backgrounds of contributors can also affect the dataset. For example, if non-Dutch contributors transcribe Dutch place names, then there may be more errors than if native Dutch contributors performed the transcription. At the same time, a non-Dutch historical expert may be more successful in the transcription of historical documents than a Dutch layperson.
 
+Avoid speculations when writing this section and stick to facts. For example, state that Dutch place names were transcribed by non-Dutch contributors. Do not add 'so there were probably more errors' unless this has been measured to be the case. 
+
 ## 5.1 Human Annotators<a id='level-5-annotator'></a>
-Human annotators - people who enriched the original data with extra information such as labels - have a large influence on the results of the annotation process. For this reason, it is important to know information about the annotators that may have influenced the results. For example, native Dutch speakers will have different results when annotating documents with Dutch placenames than native English speakers. Information about the annotation instructions is also important here, as the instructions can help in standardising responses over annotators, reducing their own influence on the results. 
+Human annotators - people who enriched the original data with extra information such as labels - have a large influence on the results of the annotation process. For this reason, it is important to know information about the annotators that may have influenced the results. For example, native Dutch speakers may have different results when annotating documents with Dutch placenames than native English speakers. Information about the annotation instructions is also important here, as the instructions can help in standardising responses over annotators, reducing their own influence on the results. 
 
 This section focuses on **who** created the annotations, not on **what** is in the annotations. A description of what was annotated can be entered in Section 3.6.
 
@@ -531,7 +533,7 @@ For creators and contributors, you can fill in relevant information in Section 5
 
   ## 5.2 Creators and Contributors<a id='level-5-contributor'></a>
   ### Description of potential positionality impact factors
-  This section can include any aspects that could have impact on the work in terms of positionality of the creators and contributors, e.g. particular domain of expertise, gender, age, etc. As it can be hard to judge what may have an impact, one option is to give a short bio for each creator/contributor. Be careful of privacy aspects.
+  This section can include any aspects that could have impact on the work in terms of positionality of the creators and contributors, e.g. particular domain of expertise, gender, age, etc. As it can be hard to judge what may have an impact, one option is to give a short bio for each creator/contributor. Be careful to respect the privacy of contributors.
 
   E.g. 'The creators and contributors were student assistants and researchers employed at the Dutch universities of Amsterdam and Leiden'
 
