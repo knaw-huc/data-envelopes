@@ -25,7 +25,7 @@ At the top of the data-envelope there is some basic administrative information
 
 * Institute - select your institute
 * ID - this will be filled in automatically the first time you save the data-envelope
-* Status - this will be initialised to 'under construction' when you first save the envelope
+* Status - this is filled in automatically. It will be initialised to 'under construction' when you first save the envelope and updated when you submit it
 
 # Level 1 Basic Information
 This level describes the data-envelope itself and the dataset contact person.
@@ -41,7 +41,7 @@ The first version number refers to the version of the dataset being documented, 
 This should contain information about the contact person for the dataset.
 
 * Name - The full name of the contact person
-* ORCID ID - If available, the [ORCID](http://orcid.org) identifier for the contact person
+* ORCID ID - the [ORCID](http://orcid.org) identifier for the contact person
 * Role in project - You can define one or more roles that the contact person played in the creation of the dataset. Leave empty if no roles are applicable.
 * Email - an email address for the contact person. The recommendation is to use a general institutional address to avoid problems when people move to new institutions. E.g. data@myinstitution.org
 
@@ -56,7 +56,7 @@ This contains the dates for the data-envelope
 This should contain information about the primary author of the data-envelope itself.
 
 * Name - the full name of the primary author
-* ORCID ID - If available, the [ORCID](http://orcid.org) identifier for the primary author
+* ORCID ID - the [ORCID](http://orcid.org) identifier for the primary author
 * Email - an email address for the primary author. The recommendation is to use a general institutional address to avoid problems when people move to new institutions. E.g. data@myinstitution.org
 
 ## 1.5 Feedback and elaboration<a id='level-1-feedback'></a>
@@ -71,20 +71,20 @@ This contains information about what is in the dataset.
 There is some discussion as to what should be included in the temporal and geographical coverage. For example, for a collection of letters the geographical coverage could refer to the locations the letters were sent to/from, or the locations discussed in the letters. Try to think about what information is most useful for users of the dataset. 
 
 * Dataset title - the title of the dataset
-* Version - the version number of the dataset. Typically this is '1' for the first version of the dataset. You can agree a numbering system with your team. This should be the same as the version number stated in the data-envelope title.
+* Version - the version number of the dataset. Typically this is '1' for the first version of the dataset. An alternative option, particularly for datasets that have been in existence for some time already, could be to use the year. You can agree a numbering system with your team. This should be the same as the version number stated in the data-envelope title. 
 * Description - Provide a free text account of the dataset or resource (limit 200 words). Include information about the content and topic of the data and what makes the dataset valuable. You may also briefly refer to how the data is available (download, portal etc.) but details about this should be entered at Level 3.
 * Genre - One or more genres from a vocabulary that apply to the dataset
 * Other Genre - Genres that apply to the dataset that are not included in the vocabulary
 * Topic Classification - One or more topics from a vocabulary that apply to the dataset
 * Other Topic - Topics that apply to the dataset that are not included in the vocabulary
 * Languages - One or more languages from a vocabulary that apply to the dataset. This refers to the natural language used for textual metadata (i.e., titles, descriptions, etc.) of a cataloged resource (i.e., dataset or service), in audio/video or the textual values of a dataset distribution.
-* Other Language - Languages that apply to the dataset that are not included in the vocabulary
+* Other Language - Languages that apply to the dataset that are not included in the vocabulary, or for which you need to add a textual description (e.g. 'A small number of documents are in various other languages').
 * Geographical coverage - This refers to the geographical area pertaining to the datasets. One or more geographical areas from a vocabulary that apply to the dataset
 * Other Geographical coverage - Geographical areas that apply to the dataset that are not included in the vocabulary
 
 ### Temporal coverage
 
-This refers to the temporal coverage of the content of the dataset, not the dates on which the dataset was created (these should be entered in section 2.2). This could be the date range of the creation of the original items (e.g. for a collection of sixteenth century letters it could be the earliest and latest dates on which letters were sent) or it could be the period discussed in the dataset (e.g. interviews recorded discussing the Second World War in the Netherlands might cover the temporal range 1940-1944). Choose what is most relevant for users of the dataset to know.
+This refers to the temporal coverage of the content of the dataset, NOT the dates on which the dataset was created (these should be entered in section 2.2). This could be the date range of the creation of the original items (e.g. for a collection of sixteenth century letters it could be the earliest and latest dates on which letters were sent) or it could be the period discussed in the dataset (e.g. interviews recorded discussing the Second World War in the Netherlands might cover the temporal range 1940-1944). Choose what is most relevant for users of the dataset to know.
 
 * Temporal coverage Start - the first year of the temporal scope
 * Temporal coverage End - the last year of the temporal scope
@@ -101,13 +101,13 @@ A dataset may have been worked on in several phases. If they are all part of the
 * Date Published - when the dataset was published
 
 ## 2.3 Creators and Contributors<a id='level-2-contributor'></a>
-In this section you can list the people who contributed to the creation of the dataset, for example by curating data, managing the project, providing functing etc. 
+In this section you can list the people who contributed to the creation of the dataset, for example by curating data, managing the project, providing funding etc. 
 
 ### Publishing Organisation
 This is the organisation responsible for publishing the data.
 
 * Name - the name of the publishing organisation. Be consistent with how you fill in the name.
-* ROR ID - if available, the [ROR](http://ror.org) identifier for the organisation
+* ROR ID - the [ROR](http://ror.org) identifier for the organisation
 * Type - the type of the publishing organisation. Choose 'Other' if none of the other types apply
 * Other - if you chose 'Other' for the type, specify the type of the organisation here
 
@@ -115,9 +115,9 @@ This is the organisation responsible for publishing the data.
 Creators are responsible for the creation of the dataset. There is no strict definition of the difference between a creator and a contributor, but generally a creator makes decisions about the dataset content, while a contributor assists in creating the dataset. You can include as many creators and contributors as you like.
 
 * Name - full name of the creator
-* ORCID ID -  If available, the [ORCID](http://orcid.org) identifier for the creator
+* ORCID ID -  the [ORCID](http://orcid.org) identifier for the creator
 * Organisation - the name of the organisation the creator was affiliated to at the time at which the dataset was created. Be consistent with how you fill in the name.
-* ROR ID - if available, the [ROR](http://ror.org) identifier for the organisation
+* ROR ID - the [ROR](http://ror.org) identifier for the organisation
 * Role - one or more roles that the creator played in the creation of the dataset. Leave empty if no roles are applicable.
 * Email - an email address for the creator
 
@@ -132,7 +132,7 @@ Contributors aid in the creation of the dataset, for example by entering data, w
 Here you can fill in persons, organisations or other funding sources that funded the creation, collection, or curation of the dataset. 
 
 * Name - Name of the person or organisation who gave the funding
-* ROR ID - if available, the [ROR](http://ror.org) identifier for the organisation
+* ROR ID - the [ROR](http://ror.org) identifier for the organisation
 * Funding or grant summary - a short summary of person or organisation and grant that funded the creation, collection, or curation of the dataset. Include any reference numbers.
 * Link - a link to any further information about the funding
 
@@ -162,7 +162,7 @@ This section tells you how you can access the dataset and under which licence(s)
 
 A licence should not only be specified when access is restricted, but also when access is open. The licence determines what the user is allowed to do with the dataset. Not filling in a licence is ambiguous. In the absence of a licence, users could assume they can do anything they want, or they could assume they cannot do certain things that may actually be permitted. 
 
-The Huygens default license is given on [this page](https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/)
+The Huygens default licence is given on [this page](https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/)
 
 ### Licensing Information
 
@@ -175,7 +175,7 @@ Note: Huygens Institute has specified a default licence that should be assumed i
 
 ## Access
 
-* Access Level - A selected access level
+* Access Level - Select one of the access levels
 
 ### Access Open
 If the level is 'open access', then you can enter more information about how the open access works
@@ -190,17 +190,17 @@ If the level is not open access, then you can enter more information about how a
 * Description - description of the access restriction. Include an explanation of why access controls are in place. Also highlight any restrictions or limitations such as geographical restrictions, time-limited access, or requirements of fees, national regulation, etc. Also provide any conditions for acceptable use, such as reading data usage policy.
 * URL - A link to instructions and/or page to request access
 * Contact email -  email for users to reach out with any questions or concerns regarding data access
-* Access prerequisites - a description of the prerequisites for access E.g., users must be affiliated with a research organisation
+* Access prerequisites - a description of the prerequisites for access. E.g., users must be affiliated with a research organisation
 
 ## 2.6 Dataset Version and Maintenance<a id='level-2-version'></a>
 ### Version
 
-* Current Version - the current version of the dataset. Fill in a number here. Typically this is '1' for the first version of the dataset. You can agree a numbering system with your team. This should be the same as the version number in 2.1.
+* Current Version - the current version of the dataset. Fill in a number here. Typically this is '1' for the first version of the dataset. An alternative option, particularly for datasets that have been in existence for some time already, could be to use the year. You can agree a numbering system with your team. This should be the same as the version number in 2.1.
 * Last Updated - the date on which the dataset was last updated
 * Release Date - the date on which the latest version was released
 
 ### Maintenance
-This section contains information about how the content of the dataset will be maintained. Is it complete, will it be updated, will reported errors be corrected? etc.
+This section contains information about how the content of the dataset will be maintained. Is it complete, will it be updated, will reported errors be corrected etc.
 It is not per se necessary to include information about technical updates to storage, servers, software etc. unless these will have a noticeable impact on users. For example, if the dataset will be unavailable for one day a month while updates are carried out, then this is a significant disruption to the user. 
 * Maintenance status - an indication of the extent to which the dataset is maintained
 * Maintenance Plan - a plan for how the dataset will be maintained
@@ -229,14 +229,14 @@ It is not per se necessary to include information about technical updates to sto
   Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful 
 
   # Level 3 Data
-  This level goes much deeper into the dataset. It should help the user use it in a correct and responsible manner. It describes how the dataset was created, and how it is structured. There is also the opportunity to describe issues such as errors, biases, sensitivity and confidentiality. 
+  This level goes much deeper into the dataset. It should help the user use it in a correct and responsible manner. It describes how the dataset was created, and how it is structured. There is also the opportunity to describe important issues such as errors, biases, sensitivity and confidentiality. 
 
  Level 3 represents a Resource of the dataset. A Resource is something that a user can utilise to work with the dataset. A Resource can be a downloadable file, or a search portal in which the dataset can be browsed, or an endpoint for querying the data, etc. The entire level can be repeated. Each repetition represents a Resource within the dataset. Different Resources may be used, for example, to describe different files within the data. They can also be used to describe different variants that are available, for example an open version and a restricted version, if these differ significantly in how they are created or what they contain. However, you can combine multiple files or multiple versions within the same Resource. When deciding how many Resources to use to represent the dataset, consider how much of the information in Level 3 the Resources have in common, how easy it is to describe each Resource clearly and how easy it is for the user to understand what is available to them.  If you are in doubt about how many Resources to use, read the [guidelines](guidelines.md).
 
  Level 3 gives the opportunity to fill in a lot of detail, which may not be necessary for all datasets. Fill in as much as you think is useful to your users.
 
   ## 3.1 Data Resource Description<a id='level-3-data-resource-description'></a>
-  This describes some basic information about the Resource, such as name, description, format and size. Depending on the dataset, some fields may be a repetition of information from Level 2, or it may be different. For example, if a dataset is split into different language files, then the Languages in Level 2 may be 'German, Dutch and French', while the language of the Resource representing the German section will just be 'German'. However, if the all of the Resources were a mix of the three languages then both Level 2 and all Resources would have 'German, Dutch and French' for their Languages. 
+  This describes some basic information about the Resource, such as name, description, format and size. Depending on the dataset, some fields may be a repetition of information from Level 2, or it may be different. For example, if a dataset is split into different language files, then the Languages in Level 2 may be 'German, Dutch and French', while the language of the Resource representing the German section will just be 'German'. However, if all of the Resources were a mix of the three languages then both Level 2 and all Resources would have 'German, Dutch and French' for their Languages. 
 
   * Name - the name of the Resource. This should distinguish it from other Resources. For example, 'Wartime Radio - audio files', and 'Wartime Radio - transcripts'.
   * Description - a description of the particular Resource. This should describe what is in the Resource, if this is different to the whole dataset. It often contains information on how the Resource was created. For example, if a dataset contains a Resource that is a set of persons detected in letters, then the Resource Description could explain how Named Entity Recognition was used to detect the persons. The description also often contains information on how to use the Resource. See the [guidelines](guidelines.md) for how this description differs from the description on Level 2.
@@ -250,7 +250,7 @@ It is not per se necessary to include information about technical updates to sto
     * Subject(s) - A selection of the subjects of the data from a vocabulary
     * Other Data Subject(s) - if the vocabulary does not contain appropriate subjects, then they can be filled in here
 * Data modality
-    * Modality - one or more data modality (e.g. image, text) selected from a vocabulary. The option 'Multimodal' means that the dataset is inherently a combination of multiple types together. For example if a dataset contains a video with in-screen subtitles, then that video is a combination of the modes of video and text, which can't be separated, and is therefore multimodal. For a dataset with videos and separate subtitle files, you can select both 'video data' and 'text data' as the modalities.
+    * Modality - one or more data modality (e.g. image, text) selected from a vocabulary. The option 'Multimodal' means that the dataset is inherently a combination of multiple types together. For example if a dataset contains a video with in-screen subtitles, then that video is a combination of the modalities of video and text, which can't be separated, and is therefore multimodal. For a dataset with videos and separate subtitle files, you can select both 'video data' and 'text data' as the modalities.
     * Other Modalitie(s) - if the vocabulary does not contain appropriate modalities, then they can be filled in here
 * Descriptive statistics - this can be used to describe the Resource with statistics, e.g. how many persons, how many different countries, the distribution over time. It can also be used to link to a page where statistics are published. E.g. '72000 scans, 101 inventory numbers, 297 shipmaster names, 275 ship names, 6 different languages (uncertain)' or 'See the Amateurfilms page on data.beeldengeluid.nl (see links in Section 2.4) for various statistics' 
 
@@ -280,7 +280,7 @@ Each data field can have the following information:
 * Data Field name - label or identifier of the data field
 * Data Field Type - The type of the field, for example common ones are string, integer, boolean.
 * Description of the data field - a description of what the field represents, including any specific details about the data format or structure. E.g. 'Name of the ship. If a place of origin is known it is mentioned behind the ship name in brackets; ship names in more than one language are listed next to each other'
-* Sensitivity - this indicates whether the data stored in this specific field is sensitive. Sensitive data might include personal information that could be harmful if exposed, such as social security numbers, personal addresses, or health information. This helps users to distinguish between sensitive and non-sensitive fields. More detailed information about the sensitivity at the dataset level can be included in section 3.7.
+* Sensitivity - this indicates whether the data stored in this specific field is sensitive. Sensitive data might include personal information that could be harmful if exposed, such as social security numbers, personal addresses, or health information. This helps users to distinguish between sensitive and non-sensitive fields. Information about the sensitivity at the dataset level can be included in section 3.7.
 * Notable Features - any important or unique attributes of the field that might be relevant for users or systems interacting with the data
 * Used Vocabularies - if a field uses a taxonomy or vocabulary then this can be described here
   * Vocabulary - a summary of the linked open data scheme, controlled vocabulary, ontology or taxonomy used during the establishment of the dataset. E.g. 'GTAA - Person scheme'
@@ -421,7 +421,7 @@ For each source used, the following information may be filled in:
 
 
 ## 3.9 Digitisation<a id='level-3-digitisation'></a>
-Describe the pipeline used for digitisation. If applicable, describe in what way digitisation presents another layer of selection of the whole of a collection available in a cultural heritage institution; state if this is not the case. If applicable, provide selection criteria and metrics that demonstrate how this additional layer of selection has influenced the transformation of the original collection or dataset into the current dataset. 
+Describe the pipeline used for digitisation. If applicable, describe in what way digitisation presents another layer of selection of the whole of a collection available in a cultural heritage institution; otherwise state that all available items were digitised. If applicable, provide selection criteria and metrics that demonstrate how this additional layer of selection has influenced the transformation of the original collection or dataset into the current dataset. 
 
 Example:
     All residential registration cards were digitally scanned. Most were scanned with automatic feed. A number of thicker cards were manually scanned. Image optimisation was applied to the           scanned images, using a light and dark profile, determined by the pixel values of the scan. As the digital scans were intended to replace the paper originals, many checks were performed on       the scans. For details, see the 'Overbrenging Amsterdamse woningkaarten 1954-1989' report linked in Section 2.4 
@@ -512,7 +512,7 @@ For creators and contributors, you can fill in relevant information in Section 5
 
 * Annotator description - This contains a short description of each annotator group. E.g. 'Dutch History Experts', 'Crowdsourced laypersons'.
 * Annotation Type - this is filled in for each different type of annotation performed. 
-  * Task type - a summary of the task type. Include links if available. Ideally connect to some existing taxonomy: survey, video annotation, text annotation, image annotation, etc
+  * Task type - a summary of the task type. Include any links. Ideally connect to some existing taxonomy: survey, video annotation, text annotation, image annotation, etc
   * Number of unique annotators
   * Average number of Annotations per Annotator
   * Expertise of annotators - for example, 'archival and historical knowledge and reading and understanding historical Dutch' or 'None'
