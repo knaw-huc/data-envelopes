@@ -73,9 +73,9 @@ There is some discussion as to what should be included in the temporal and geogr
 * Dataset title - the title of the dataset
 * Version - the version number of the dataset. Typically this is '1' for the first version of the dataset. An alternative option, particularly for datasets that have been in existence for some time already, could be to use the year. You can agree a numbering system with your team. This should be the same as the version number stated in the data-envelope title. 
 * Description - Provide a free text account of the dataset or resource (limit 200 words). Include information about the content and topic of the data and what makes the dataset valuable. You may also briefly refer to how the data is available (download, portal etc.) but details about this should be entered at Level 3.
-* Genre - One or more genres from a vocabulary that apply to the dataset
+* Genre - One or more genres from a vocabulary that apply to the dataset. A genre categorises the dataset or the items in it. E.g. Books, Legislation, Videorecording
 * Other Genre - Genres that apply to the dataset that are not included in the vocabulary
-* Topic Classification - One or more topics from a vocabulary that apply to the dataset
+* Topic Classification - One or more topics from a vocabulary that apply to the dataset. A topic describes what the dataset is about. E.g. Archaelogy, History, Public Administration.
 * Other Topic - Topics that apply to the dataset that are not included in the vocabulary
 * Languages - One or more languages from a vocabulary that apply to the dataset. This refers to the natural language used for textual metadata (i.e., titles, descriptions, etc.) of a cataloged resource (i.e., dataset or service), in audio/video or the textual values of a dataset distribution.
 * Other Language - Languages that apply to the dataset that are not included in the vocabulary, or for which you need to add a textual description (e.g. 'A small number of documents are in various other languages').
