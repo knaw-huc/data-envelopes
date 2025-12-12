@@ -21,7 +21,7 @@
   Creating data-envelopes takes time and effort. For this reason, it is sensible to prioritise those datasets for which a data-envelope has the most impact.
   
   ## For what do I create a data-envelope?
-  Data-Envelopes are intended to describe datasets. But what is a dataset? This is a very hard question to answer. A practical approach is to think about your users. What is a unit of data that is useful to them? This could be a huge database or a single file listing persons.
+  Data-Envelopes are intended to describe datasets. But what is a dataset? This is a very hard question to answer. A practical approach is to think about your users. What is a 'block' of data that is useful to them? This could range from a huge database to a single file listing persons.
 
   ## My data is not available online. Do I still need a data-envelope?
   It can still be useful to use a data-envelope to describe a dataset even if it is not available online. This can have the following benefits:
