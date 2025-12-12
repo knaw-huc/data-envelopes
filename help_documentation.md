@@ -14,7 +14,7 @@ Fill in as much of the information in the data-envelope as you can, referring to
 
 Some fields in a data-envelope are compulsory. These are marked with a star in the editor. If these fields are not filled in, then the data-envelope will fail validation. Validation occurs when you press the Submit button. You can save an invalid envelope, but you can not successfully submit it. 
 
-For all other fields, the rule is to fill in as much as you reasonably can. Priority should be given to the information that is most important for your particular dataset.
+For all other fields, the rule is to fill in as much as you reasonably can. Priority should be given to the information that is most important for your particular dataset. You may know the information yourself, you may find it in dataset or project documentation, or you may ask colleagues (if they have access to the editor then they can fill in the information directly). If data-envelopes already exist for similar datasets, then it can be helpful to look at these for guidance as to how to fill in your data-envelope - how to name organisations, what to include in text descriptions, which genre and topic keywords to use etc. In particular for data-envelopes from the same institution or team it makes them more readable if they are filled in consistently.
 
 When you have completed the data-envelope, ask a colleague to review it. If they have access to the editor, then they can review it there. Otherwise, you can download a copy from the table (in PDF, HTML or CDMI format) and send this to them for review. 
 
@@ -35,7 +35,9 @@ A title for the data-envelope, NOT the dataset. Follow the format: Dataset Name 
 
     Baptism Registers Amsterdam Version-1 Data-Envelope Version-1
 
-The first version number refers to the version of the dataset being documented, the second version number refers to the version of the documentation itself. Typically the version number is '1' for the first version of the dataset or the envelope. You can agree a numbering system with your team.
+The first version number refers to the version of the dataset being documented, the second version number refers to the version of the documentation itself. Typically the version number is an integer, and '1' is used for the first version of the dataset or the envelope. However it can be more appropriate to use other numbering systems. For example, if a dataset already existed for a long time prior to the data-envelope being created but didn't have a version number, then it may be more informative to use the current year. You should agree a numbering system with your team.
+
+You can add the title in different languages if you think this is helpful to dataset users.
 
 ## 1.2 Contact Details<a id='level-1-contact'></a>
 This should contain information about the contact person for the dataset.
@@ -44,6 +46,8 @@ This should contain information about the contact person for the dataset.
 * ORCID ID - the [ORCID](http://orcid.org) identifier for the contact person
 * Role in project - You can define one or more roles that the contact person played in the creation of the dataset. Leave empty if no roles are applicable.
 * Email - an email address for the contact person. The recommendation is to use a general institutional address to avoid problems when people move to new institutions. E.g. data@myinstitution.org
+
+Sometimes there is no specific contact person. In that case, instead of a name you can add a description, e.g. 'Helpdesk' or 'Data management department'
 
 ## 1.3 Data Envelope Dates<a id='level-1-dates'></a>
 This contains the dates for the data-envelope
@@ -79,7 +83,7 @@ There is some discussion as to what should be included in the temporal and geogr
 * Other Topic - Topics that apply to the dataset that are not included in the vocabulary
 * Languages - One or more languages from a vocabulary that apply to the dataset. This refers to the natural language used for textual metadata (i.e., titles, descriptions, etc.) of a cataloged resource (i.e., dataset or service), in audio/video or the textual values of a dataset distribution.
 * Other Language - Languages that apply to the dataset that are not included in the vocabulary, or for which you need to add a textual description (e.g. 'A small number of documents are in various other languages').
-* Geographical coverage - This refers to the geographical area pertaining to the datasets. One or more geographical areas from a vocabulary that apply to the dataset
+* Geographical coverage - This refers to the geographical area pertaining to the datasets. One or more geographical areas from a vocabulary that apply to the dataset (Note: currently no vocabulary is connected in the editor). 
 * Other Geographical coverage - Geographical areas that apply to the dataset that are not included in the vocabulary
 
 ### Temporal coverage
@@ -88,8 +92,8 @@ This refers to the temporal coverage of the content of the dataset, NOT the date
 
 * Temporal coverage Start - the first year of the temporal scope
 * Temporal coverage End - the last year of the temporal scope
-* Year - in the case that the temporal scope cannot be captured in a range, this field allows you to specify the individual years that are relevant to the scope of the dataset
-* Additional Notes - Specify any additional information about the temporal scope of the dataset. This could include gaps in the coverage, or years that contain more data than others.
+* Year - in the case that the temporal scope cannot be captured in a range, this field allows you to specify the individual years that are relevant to the scope of the dataset. If the temporal scope is too complicated to describe in terms of years, then describe it in the Additional Notes.
+* Additional Notes - Specify any additional information about the temporal scope of the dataset. This could include gaps in the coverage, or years that contain more data than others. 
 
 ## 2.2 Dates<a id='level-2-dates'></a>
 These dates refer to the time span during which the dataset was created. For example, the start and end date of the project to collect and digitise the data. The date on which the dataset is published is also specified. Note: these dates could conincide with the temporal coverage, for example if the dataset contains tweets collected daily. But usually it is later; for example a dataset may contain interviews recorded this year that discuss the Second World War.
@@ -101,7 +105,11 @@ A dataset may have been worked on in several phases. If they are all part of the
 * Date Published - when the dataset was published
 
 ## 2.3 Creators and Contributors<a id='level-2-contributor'></a>
-In this section you can list the people who contributed to the creation of the dataset, for example by curating data, managing the project, providing funding etc. 
+In this section you can list the people and organisations who contributed to the creation of the dataset, for example by curating data, managing the project, providing funding etc. Try to use the same way of writing names across your team or institution. It is harder to find all datasets from a particular person or organisation if their name is written differently each time.
+
+In the case of older datasets, the organisations involved may have changed their names. As a general rule, stick to the name the organisation used at the time of involvement. If you think it is helpful to the data-envelope reader, then you can add the current name in brackets. Where the organisation continues in the same role under its new name, you can use the new name and indicate that it was already involved under the old name(s). For example, the Institute for Dutch History (ING) merged with the Huygens Institute to become the Huygens Institute for History and Culture of the Netherlands. For a dataset originally published by the ING and now published by Huygens you could fill in 'Huygens Institute for History and Culture of the Netherlands and predecessors' for the publishing organisation. 
+
+The names of organisations may be in a different language to the language you are using when filling in the data-envelope. In this case, consider including a translation of the organisation name to help the data-envelope reader understand what sort of organisation it is. 
 
 ### Publishing Organisation
 This is the organisation responsible for publishing the data.
@@ -140,7 +148,7 @@ Here you can fill in persons, organisations or other funding sources that funded
 This section specifies where you can get the dataset or further information about the dataset, information on available downloads and on how to cite the dataset
 
 * Dataset Link - This is a link that identifies the dataset. For instance its DOI, Handle, or ARK
-* Repository - One or more links to the dataset or to information about the dataset. If the dataset has its own dedicated website(s) or is hosted on sites such as github, zenodo, dataverse, marketplace, provide the url(s) here. Documentation and FAQ pages can also be linked.
+* Repository - One or more links to the dataset or to information about the dataset. If the dataset has its own dedicated website(s) or is hosted on sites such as github, zenodo, dataverse, marketplace, or its own portal, provide the url(s) here. Documentation and FAQ pages can also be linked.
 * Download
   * Link - one or more download links for the dataset
   * File/folder type - the type that is downloaded. For example, .zip for an archive file.
@@ -201,7 +209,8 @@ If the level is not open access, then you can enter more information about how a
 
 ### Maintenance
 This section contains information about how the content of the dataset will be maintained. Is it complete, will it be updated, will reported errors be corrected etc.
-It is not per se necessary to include information about technical updates to storage, servers, software etc. unless these will have a noticeable impact on users. For example, if the dataset will be unavailable for one day a month while updates are carried out, then this is a significant disruption to the user. 
+It is not per se necessary to include information about technical updates to storage, servers, software etc. unless these will have a noticeable impact on users. For example, if the dataset will be unavailable for one day a month while updates are carried out, then this is a significant disruption to the user and is useful to mention. Or if technical updates will cease when a project finishes then this may increase the risk that the dataset becomes inaccessible.
+
 * Maintenance status - an indication of the extent to which the dataset is maintained
 * Maintenance Plan - a plan for how the dataset will be maintained
   * Updates - Information about criteria for updating the dataset. Include information on how errors are triaged or handled, and criteria for updating the dataset. For example, a dataset of parliamentary members might be updated after every election.
@@ -386,6 +395,8 @@ E.g. 'This is the correspondence of a member of the royal family, so it does not
 * Specify - If you selected 'Others', then you can specify them further here. 
 * Unintentionally Collected Attributes - any human attributes that were not explicitly collected as a part of the dataset creation process but were accidentally/unavoidably included or can be inferred using additional methods
 
+For older datasets, it may be the case that they contain sensitive human attributes, but that the people involved are long dead. In this case, choose 'Others' and then add an explanatory text under 'Specify', e.g. 'The data contains sensitive human attributes but all persons are no longer living'. This is preferable to filling in 'None' for the sensitive human attributes, as in that case a dataset user may then see sensitive attributes in the data and become concerned that the data-envelope is incorrect.
+
 ### Ethical Review
 
 * Review - an indication, yes or no, if an ethical review was carried out
@@ -436,6 +447,8 @@ This level describes the uses for which the dataset was designed, what it has be
 * Other - if other was selected then the purpose can be specified here
 * Domain(s) of Application - the domains for which the dataset was designed can be specified using a vocabulary
 * Motivating Factor(s) and Problem space(s) - What motivated the creation of this dataset? Did the creators already have a specific use in mind? Provide a description of the specific problem space that this dataset intends to address. E.g. 'The diaries were published to aid historical research. The books containing the diary entries were digitised as part of work to make the entire RGP (Rijks Geschiedkundige Publicatien) series belonging to the Huygens Institute digitally available. '
+
+The motivating factors are very important as these will shape many decisions that have a big effect on the dataset. For example, an archive could digitally scan documents with the intention of creating digital copies and discarding the paper originals, with the intention of making the documents searchable, or with the intention of testing a new scanning tool. In the first case then the scans should be a digital copy of high quality. In the second case a lower quality is acceptable as the user only needs to be able to discover keywords in the scan. In the third case the documents themselves are not the focus of the dataset so the dataset of digital scans may not be at all representative of the dataset of paper documents, for example it may be that only robust documents that fit the scanner format were scanned.
 
 ## 4.1 Uses<a id='level-4-1-uses'></a>
 There may be multiple types of use possible for the dataset, e.g. both research and production, so this section can be repeated per use.
