@@ -88,7 +88,9 @@ There is some discussion as to what should be included in the temporal and geogr
 
 ### Temporal coverage
 
-This refers to the temporal coverage of the content of the dataset, NOT the dates on which the dataset was created (these should be entered in section 2.2). This could be the date range of the creation of the original items (e.g. for a collection of sixteenth century letters it could be the earliest and latest dates on which letters were sent) or it could be the period discussed in the dataset (e.g. interviews recorded discussing the Second World War in the Netherlands might cover the temporal range 1940-1944). Choose what is most relevant for users of the dataset to know.
+This refers to the temporal coverage of the content of the dataset, NOT the dates on which the dataset was created (these should be entered in section 2.2). This could be the date range of the creation of the original items (e.g. for a collection of sixteenth century letters it could be the earliest and latest dates on which letters were sent) or it could be the period discussed in the dataset (e.g. interviews recorded discussing the Second World War in the Netherlands might cover the temporal range 1940-1944). Choose what is most relevant for users of the dataset to know. 
+
+If the temporal coverage is too complicated to explain in terms of years, then you can describe it in the Additional Notes.
 
 * Temporal coverage Start - the first year of the temporal scope
 * Temporal coverage End - the last year of the temporal scope
