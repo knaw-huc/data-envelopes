@@ -2,23 +2,23 @@
 This page contains help documentation, including examples, for the fields in a data-envelope as implemented in the Huygens Data-Envelope editor. If you want general help in creating data-envelopes, then read the [guidelines](guidelines.md)
 
 # Basic workflow
-Follow the link you have been given to the editor and enter the login information you have been given.
+* Follow the link you have been given to the editor and enter the login information you have been given.
 
-The editor opens showing a list of all data-envelopes in a table. 
+* The editor opens showing a list of all data-envelopes in a table. 
 
-You create a data-envelope by clicking the plus icon in the top of the table. 
+* You create a data-envelope by clicking the plus icon in the top of the table. 
 
-Fill in as much of the information in the data-envelope as you can, referring to the help information below. You may know the information yourself, or you may need to look it up in existing dataset documentation, such as the Resource page. For some fields, you may need to ask colleagues for assistance. They can fill in the data-envelope themselves if they have a log-in, or they can answer your questions and you can fill in the information yourself. Note: it is not advisable to work on the same data-envelope simultaneously, agree who will work on the data-envelope in a particular period. 
+* Fill in as much of the information in the data-envelope as you can, referring to the help information below. You may know the information yourself, or you may need to look it up in existing dataset documentation, such as the Resource page. For some fields, you may need to ask colleagues for assistance. They can fill in the data-envelope themselves if they have a log-in, or they can answer your questions and you can fill in the information yourself. Note: it is not advisable to work on the same data-envelope simultaneously, agree who will work on the data-envelope in a particular period. 
 
  **Be sure to regularly save your work by pressing the Save button**
 
-Some fields in a data-envelope are compulsory. These are marked with a star in the editor. If these fields are not filled in, then the data-envelope will fail validation. Validation occurs when you press the Submit button. You can save an invalid envelope, but you can not successfully submit it. 
+* Some fields in a data-envelope are compulsory. These are marked with a star in the editor. If these fields are not filled in, then the data-envelope will fail validation. Validation occurs when you press the Submit button. You can save an invalid envelope, but you can not successfully submit it. 
 
-For all other fields, the rule is to fill in as much as you reasonably can. Priority should be given to the information that is most important for your particular dataset. You may know the information yourself, you may find it in dataset or project documentation, or you may ask colleagues (if they have access to the editor then they can fill in the information directly). If data-envelopes already exist for similar datasets, then it can be helpful to look at these for guidance as to how to fill in your data-envelope - how to name organisations, what to include in text descriptions, which genre and topic keywords to use etc. In particular for data-envelopes from the same institution or team it makes them more readable if they are filled in consistently.
+* For all other fields, the rule is to fill in as much as you reasonably can. Priority should be given to the information that is most important for your particular dataset. You may know the information yourself, you may find it in dataset or project documentation, or you may ask colleagues (if they have access to the editor then they can fill in the information directly). If data-envelopes already exist for similar datasets, then it can be helpful to look at these for guidance as to how to fill in your data-envelope - how to name organisations, what to include in text descriptions, which genre and topic keywords to use etc. In particular for data-envelopes from the same institution or team it makes them more readable if they are filled in consistently.
 
-When you have completed the data-envelope, ask a colleague to review it. If they have access to the editor, then they can review it there. Otherwise, you can download a copy from the table (in PDF, HTML or CDMI format) and send this to them for review. 
+* When you have completed the data-envelope, ask a colleague to review it. If they have access to the editor, then they can review it there. Otherwise, you can download a copy from the table (in PDF, HTML or CDMI format) and send this to them for review. 
 
-Once the data-envelope is completed, click on Submit. The data-envelope will be validated. If any compulsory fields are not filled in, then error messages will appear. Otherwise, the data-envelope status will be set to 'publish'.
+* Once the data-envelope is completed, click on Submit. The data-envelope will be validated. If any compulsory fields are not filled in, then error messages will appear. Otherwise, the data-envelope status will be set to 'publish'.
 
 # Administrative information
 At the top of the data-envelope there is some basic administrative information
