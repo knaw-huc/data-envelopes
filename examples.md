@@ -1,5 +1,7 @@
 Here is an overview of example data-envelopes. If a data-envelope is publicly available then a link to the data-envelope is included.
 
+These are real-life examples, filled in by a variety of different people from different institutes, and as such they reflect a diversity of choices in how to fill in a data-envelope. They are intended to help you think about what works well (and what doesn't) for different datasets. They are not intended as model examples that you should try to copy. 
+
 | ﻿Title | Institute | Short summary | Genres, Topics | Temporal coverage |
 | ---- | ---- | ---- | ---- | ---- |
 | 2023 Ground Truth Document Classification CABR | Huygens Institute | This dataset contains ground truth (GT) that was created in order to train a document classification model for the Central Archives of Special Jurisdiction (CABR, 2.09.09), as part of the project War in Court (Oorlog voor de Rechter)  | Document; Legal cases and case notes; Law; Modern and contemporary history, Criminal law and Criminology; World War Two | 1934-1952 |
