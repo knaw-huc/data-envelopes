@@ -1,3 +1,6 @@
+# Examples of data-envelopes
+This page gives an overview of example data-envelopes, followed by plots of the temporal coverage of the datasets described in the data-envelopes.
+## Overview
 Here is an overview of example data-envelopes. If a data-envelope is publicly available then a link to the data-envelope is included.
 
 These are real-life examples, filled in by a variety of different people from different institutes, and as such they reflect a diversity of choices in how to fill in a data-envelope. They are intended to help you think about what works well (and what doesn't) for different datasets. They are not intended as model examples that you should try to copy. 
@@ -84,3 +87,15 @@ These are real-life examples, filled in by a variety of different people from di
 | Tastes of the Past | Huygens Institute | The 'Tastes of the Past' dataset makes digitally available the recipe corpus and research results of the 'Tastes of the Past' project, which developed an experimental methodology to reconstruct and evaluate historical tastes and to connect historical and contemporary taste evaluations | Document; Computer Files; Database; Questionnaire results; Text analysis results; Graphs; Tables; Wordclouds; Cultural history; Modern and contemporary history; Social and economic history; reconstruction research; historical tastes; recipes | 1600-1800 |
 | TD Dataset | Huygens Institute | This is the dataset accompanying the PhD dissertation "Linked Sources: network perspectives on the polyphonic Te deum laudamus in the sixteenth century" (Utrecht University) | Visual materials; Network files; Tabular data; Musicology; Network science | 1300-1700 |
 | Wob/Woo Decisions Amsterdam  | City Archives of Amsterdam | The dataset 'Wob/WOO Decisions Amsterdam' makes digitally available the Freedom of Information dossiers (requests, decisions and any published documents answering the request) of the City of Amsterdam | Document; Freedom of Information requests; Public administration and political science | 2015-2025 |
+
+
+## Plots over time
+These plots show the number of example data-envelopes per year. The years are not the year in which the data-envelope was created, but the years covered by the dataset that the data-envelope describes. In this way the plots show the temporal coverage of the datasets described by the data-envelopes. 
+
+![Data-envelopes over time](https://github.com/knaw-huc/data-envelopes/blob/main/data-envelopes-over-time.png)
+
+[Click here](https://public.flourish.studio/visualisation/26891208/) for an interactive version
+
+![Data-envelopes per institute over time](https://github.com/knaw-huc/data-envelopes/blob/main/data-envelopes-per-institute-over-time.png)
+
+[Click here](https://public.flourish.studio/visualisation/26891127/) for an interactive version
