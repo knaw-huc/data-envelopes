@@ -113,6 +113,8 @@ In the case of older datasets, the organisations involved may have changed their
 
 The names of organisations may be in a different language to the language you are using when filling in the data-envelope. In this case, consider including a translation of the organisation name to help the data-envelope reader understand what sort of organisation it is. 
 
+For help with roles of creators and contributors, you can refer to the list at [https://credit.niso.org/](https://credit.niso.org/)
+
 ### Publishing Organisation
 This is the organisation responsible for publishing the data.
 
