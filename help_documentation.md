@@ -399,7 +399,7 @@ E.g. 'This is the correspondence of a member of the royal family, so it does not
 * Specify - If you selected 'Others', then you can specify them further here. 
 * Unintentionally Collected Attributes - any human attributes that were not explicitly collected as a part of the dataset creation process but were accidentally/unavoidably included or can be inferred using additional methods
 
-For older datasets, it may be the case that they contain sensitive human attributes, but that the people involved are long dead. In this case, choose 'Others' and then add an explanatory text under 'Specify', e.g. 'The data contains sensitive human attributes but all persons are no longer living'. This is preferable to filling in 'None' for the sensitive human attributes, as in that case a dataset user may then see sensitive attributes in the data and become concerned that the data-envelope is incorrect.
+For older datasets, it may be the case that they contain sensitive human attributes, but that the people involved are long dead. In this case, choose 'Others' and then add an explanatory text under 'Specify', e.g. 'The data contains sensitive human attributes but all persons are no longer living'. This is preferable to filling in 'None' for the sensitive human attributes, as in that case a dataset user may then see sensitive attributes in the data and become concerned that the data-envelope is incorrect. As [Lehmann et al](https://doi.org/10.5281/zenodo.16418346) states, "Even if such depictions are of a historical nature, it is advisable to report in the documentation that such sensitive information is contained in the dataset."
 
 ### Ethical Review
 
