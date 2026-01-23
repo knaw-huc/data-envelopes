@@ -1,7 +1,7 @@
   # Guidelines
   Before reading these guidelines, first read about the [concept of data-envelopes](concept.md).
 
-  There are no hard and fast rules for creating data-envelopes for your data. How you structure and fill in information about your datasets will depend to a large extent on the type of data you have and the sort of users. Keep in mind that the aim of a data-envelope is to inform your user so that they can find and correctly use the dataset. The data-envelop should present the necessary information as clearly and succinctly as possible.
+  There are no hard and fast rules for creating data-envelopes for your data. How you structure and fill in information about your datasets will depend to a large extent on the type of data you have and the sort of users. Keep in mind that the aim of a data-envelope is to inform your user so that they can find and correctly use the dataset. The data-envelope should present the necessary information as clearly and succinctly as possible.
   
   Below are guidelines that can help you when making decisions. The data-envelope format is in development and its use in practice is being thoroughly tested. As a result, these guidelines will evolve.
 
@@ -100,3 +100,7 @@
   ## Do I have to put all the information about my dataset in the data-envelope?
   No! The data-envelope should be kept as concise as possible to make it easier for users to read it quickly. It must contain the key elements they need to assess whether the dataset is relevant and usable. It is not there to tell the whole story of a dataset, or as a detailed instruction manual. It is the central place for information about the dataset so it should refer to more detailed information that is available, for example publications, blogs, manuals. Think of the analogy of an information leaflet for medicine. This contains the key information that you need to know, and will alert you to potential problems so that you can then go and find out more information, for example talk to your GP.
   
+  ## What if a particular field is irrelevant, or I don't know the answer?
+  Data-envelopes are designed to cover a broad range of datasets, so it is perfectly possible that some fields may not be relevant to your particular dataset. For example, if the data was not annotated, then you do not need to fill in the sections on annotation. It can be helpful to the reader if you fill in 'not applicable', rather than leaving the field empty, which is ambiguous. 
+
+  It isn't always possible to know everything about a dataset, particularly datasets that were created a long time ago. If you have tried to find the answer in documentation or by asking colleagues, but the information couldn't be found, then it is simply not available. It can be helpful to the reader if you fill in 'information not available', rather than leaving the field empty, which is ambiguous.  If you want to expand on the reasons why the information is unavailable, then you can either do so in the field if there is room, or otherwise in the Feedback field of the relevant section.  
