@@ -1,5 +1,5 @@
-# Help documentation for fields
-This page contains help documentation, including examples, for the fields in a data-envelope as implemented in the Huygens Data-Envelope editor. If you want general help in creating data-envelopes, then read the [guidelines](guidelines.md)
+# Help documentation
+This page contains help documentation, including examples, for filling in the fields in a data-envelope as implemented in the Huygens Data-Envelope editor. If you want general help in creating data-envelopes, then read the [guidelines](guidelines.md)
 
 # Basic workflow
 * Follow the link you have been given to the editor and enter the login information you have been given.
