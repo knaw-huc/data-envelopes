@@ -2,19 +2,27 @@
 This page contains help documentation, including examples, for filling in the fields in a data-envelope as implemented in the Huygens Data-Envelope editor. If you want general help in creating data-envelopes, then read the [guidelines](guidelines.md)
 
 # Basic workflow
+* Consider the dataset you want to describe. What data does it contain? In which files? Is the data downloadable or is it accessed via portals/tools? Consult the [guidelines](guidelines.md) to decide how best to organise the data for description. (Note: you can change this later if necessary but it saves work and improves the structure of the documentation if you think about it first).
+
 * Follow the link you have been given to the editor and enter the login information you have been given.
 
 * The editor opens showing a list of all data-envelopes in a table. 
 
-* You create a data-envelope by clicking the plus icon in the top of the table. 
+* You create a data-envelope by clicking the plus icon in the top of the table.
 
-* Fill in as much of the information in the data-envelope as you can, referring to the help information below. You may know the information yourself, or you may need to look it up in existing dataset documentation, such as the Resource page. For some fields, you may need to ask colleagues for assistance. They can fill in the data-envelope themselves if they have a log-in, or they can answer your questions and you can fill in the information yourself. Note: it is not advisable to work on the same data-envelope simultaneously, agree who will work on the data-envelope in a particular period. 
+* If data-envelopes already exist for similar datasets, then it can be helpful to look at these for guidance as to how to fill in your data-envelope - how to name organisations, what to include in text descriptions, which genre and topic keywords to use etc. In particular for data-envelopes from the same institution or team it makes them more readable if they are filled in consistently.
+
+* Talk to any available experts about the dataset and check any existing documentation for information that you think it is important for users of the dataset to know. Find a suitable place for this information in the data-envelope. Information that doesn't fit in any of the existing fields in the envelope but that is important to users can be entered in the Feedback fields at the end of each section.
+
+* Go through the data-envelope and fill in as many fields as you can, referring to the help information below. You may know the information yourself, or you may need to look it up in existing dataset documentation, such as the Resource page. For some fields, you may need to ask colleagues for assistance. They can fill in the relevant parts of the data-envelope themselves if they have a log-in, or they can answer your questions and you can fill in the information yourself. Note: it is not advisable to work on the same data-envelope simultaneously, make sure to agree who will work on the data-envelope in a particular period.
+
+* It can be helpful to maintain a list of the sources (human and documentary) that you used. Then, if questions arise during review or from users, you can find where the information came from.
+
+* Some fields in a data-envelope are compulsory. These are marked with a star in the editor. If these fields are not filled in, then the data-envelope will fail validation. Validation occurs when you press the Submit button. You can save an invalid envelope, but you cannot successfully submit it. 
+
+* For all other fields, the rule is to fill in as much as you reasonably can. Priority should be given to the information that is most important for your particular dataset. 
 
  **Be sure to regularly save your work by pressing the Save button**
-
-* Some fields in a data-envelope are compulsory. These are marked with a star in the editor. If these fields are not filled in, then the data-envelope will fail validation. Validation occurs when you press the Submit button. You can save an invalid envelope, but you can not successfully submit it. 
-
-* For all other fields, the rule is to fill in as much as you reasonably can. Priority should be given to the information that is most important for your particular dataset. You may know the information yourself, you may find it in dataset or project documentation, or you may ask colleagues (if they have access to the editor then they can fill in the information directly). If data-envelopes already exist for similar datasets, then it can be helpful to look at these for guidance as to how to fill in your data-envelope - how to name organisations, what to include in text descriptions, which genre and topic keywords to use etc. In particular for data-envelopes from the same institution or team it makes them more readable if they are filled in consistently.
 
 * When you have completed the data-envelope, ask a colleague to review it. If they have access to the editor, then they can review it there. Otherwise, you can download a copy from the table (in PDF, HTML or CDMI format) and send this to them for review. 
 
