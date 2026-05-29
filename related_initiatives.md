@@ -1,6 +1,8 @@
 # Related initiatives
 Do you know of an initiative not listed here? Please [let us know](contact.md)
 
+* [Data Management Plans](https://en.wikipedia.org/wiki/Data_management_plan)
+* [Data Papers](https://book.the-turing-way.org/communication/dif-articles/data/)
 * [Datasheets for Digital Cultural Heritage](https://pro.europeana.eu/project/datasheets-for-digital-cultural-heritage-working-group)
 * [SSHOC-NL](https://sshoc.nl)
 * [Croissant ML](https://mlcommons.org/working-groups/data/croissant/)
@@ -13,3 +15,30 @@ Do you know of an initiative not listed here? Please [let us know](contact.md)
 * [Microsoft's Open Datasheets](https://github.com/microsoft/opendatasheets-framework)
 * [IBM’s AI FactSheets 360](https://rai-toolkit.github.io/technology/technical%20tool/IBM-AI-AI-FactSheets-360/)
 * [Partnership on AI About ML Project](https://partnershiponai.org/workstream/about-ml/)
+* [A Manifesto on Resource Re-Use in Interactive Information Retrieval](https://marijnkoolen.com/publications/2021/bogers2021manifesto.pdf)
+* [Data Scopes](https://pure.knaw.nl/ws/files/9167781/Data_Scopes_for_Digital_History_Research.pdf)
+* [A Checklist to Publish Collections as Data in GLAM Institutions](https://arxiv.org/abs/2304.02603)
+* [RO-Crate](https://www.researchobject.org/ro-crate/)
+
+To place data-envelopes in the context of the other initiatives, this table compares the purposes the most relevant initiatives serve. 
+
+The table makes it clear that many initiatives are complementary, addressing different purposes.
+
+Data-Envelopes share the same purposes as Datasheets for DCH, an initiative with which we are working in close collaboration. They also share the purposes of Croissant ML, however Croissant ML is currently focused on more technical types of datasets. Croissant ML is developing a profile for Digital Humanities, which may provide the opportunity to collaborate in the future.
+
+|Overall|Details|DMP|Dsh|DE|Croi|DP|Man|DSc|CL|RO|
+|-------|-------|---|---|--|----|--|---|---|--|--|
+|Produce|Plan for data management needs| +|||||||||
+|Inform | Make your dataset known||+|+|+|+||||
+|Inform  | Make data available for computational use| |+|+|+||||+||
+|Inform  | Satisfy funders |+||||||||
+| Share/Find|Help people find your dataset||+|+|+|+|||||
+|Share/Find| Make your dataset more searchable (by making it machine-readable)||+|+|+||||||
+|(Re)use|Help people reuse your dataset||+|+|+|+|||||
+|(Re)use|Help people reuse your research resources||||||+|||
+|(Re)use|Get credit for your dataset||?|?|?|+|||||
+|Reflect| Encourage reflection about how to collect and process data|+|+|+|+|?|||||
+|Reflect|Make your research process transparent and reproducible|||||||+||+|
+|Reflect |Reflection on your research process|||||||+|||
+
+DMP - Data Management Plan, DSh – Datasheet for DCH, DE – data-envelope, Croi – Croissant ML, DP – Data Paper, Man – Manifesto on Resource Re-Use, DSc – Data scope, CL – Checklist to publish collections as data, RO – RO-Crate
