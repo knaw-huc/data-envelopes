@@ -6,6 +6,7 @@ Do you know of an initiative not listed here? Please [let us know](contact.md)
 * [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010.pdf)
 * [Datasheets for Digital Cultural Heritage](https://pro.europeana.eu/project/datasheets-for-digital-cultural-heritage-working-group)
 * [Datasheets for Web Archives](https://bl.iro.bl.uk/concern/reports/d7954797-8424-4ad4-ad10-d427004130ae?locale=de)
+* [AIRDocS](https://zenodo.org/records/15046713)
 * [SSHOC-NL](https://sshoc.nl)
 * [Croissant ML](https://mlcommons.org/working-groups/data/croissant/)
 * [Data Nutrition project](https://datanutrition.org)
@@ -27,19 +28,19 @@ The table makes it clear that many initiatives are complementary, addressing dif
 
 Data-Envelopes share the same purposes as Datasheets for DCH, an initiative with which we are working in close collaboration. They also share the purposes of Croissant ML, however Croissant ML is currently focused on more technical types of datasets. Croissant ML is developing a profile for Digital Humanities, which may provide the opportunity to collaborate in the future.
 
-|Overall|Details|DMP|Dsh|DE|Croi|DP|Man|DSc|CL|RO|
-|-------|-------|---|---|--|----|--|---|---|--|--|
-|Produce|Plan for data management needs| +|||||||||
-|Inform | Make your dataset known||+|+|+|+||||
-|Inform  | Make data available for computational use| |+|+|+||||+||
-|Inform  | Satisfy funders |+||||||||
-| Share/Find|Help people find your dataset||+|+|+|+|||||
-|Share/Find| Make your dataset more searchable (by making it machine-readable)||+|+|+||||||
-|(Re)use|Help people reuse your dataset||+|+|+|+|||||
-|(Re)use|Help people reuse your research resources||||||+|||
-|(Re)use|Get credit for your dataset||?|?|?|+|||||
-|Reflect| Encourage reflection about how to collect and process data|+|+|+|+|?|||||
-|Reflect|Make your research process transparent and reproducible|||||||+||+|
-|Reflect |Reflection on your research process|||||||+|||
+|Overall|Details|DMP|Dsh|DE|Croi|DP|Man|DSc|CL|RO|AIRDocS|
+|-------|-------|---|---|--|----|--|---|---|--|--|-------|
+|Produce|Plan for data management needs| +||||||||||
+|Inform | Make your dataset known||+|+|+|+|||||
+|Inform  | Make data available for computational use| |+|+|+||||+|||
+|Inform  | Satisfy funders |+|||||||||
+| Share/Find|Help people find your dataset||+|+|+|+||||||
+|Share/Find| Make your dataset more searchable (by making it machine-readable)||+|+|+|||||||
+|(Re)use|Help people reuse your dataset||+|+|+|+|||||+|
+|(Re)use|Help people reuse your research resources||||||+||||
+|(Re)use|Get credit for your dataset||?|?|?|+||||||
+|Reflect| Encourage reflection about how to collect and process data|+|+|+|+|?|||||+|
+|Reflect|Make your research process transparent and reproducible|||||||+||+||
+|Reflect |Reflection on your research process|||||||+||||
 
 DMP - Data Management Plan, DSh – Datasheet for DCH, DE – data-envelope, Croi – Croissant ML, DP – Data Paper, Man – Manifesto on Resource Re-Use, DSc – Data scope, CL – Checklist to publish collections as data, RO – RO-Crate
