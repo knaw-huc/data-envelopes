@@ -41,6 +41,6 @@ Data-Envelopes share the same purposes as Datasheets for DCH, an initiative with
 |(Re)use|Get credit for your dataset||?|?|?|+||||||
 |Reflect| Encourage reflection about how to collect and process data|+|+|+|+|?|||||+|
 |Reflect|Make your research process transparent and reproducible|||||||+||+||
-|Reflect |Reflection on your research process|||||||+||||
+|Reflect |Reflection on your research process|||||||+|||+|
 
 DMP - Data Management Plan, DSh – Datasheet for DCH, DE – data-envelope, Croi – Croissant ML, DP – Data Paper, Man – Manifesto on Resource Re-Use, DSc – Data scope, CL – Checklist to publish collections as data, RO – RO-Crate
