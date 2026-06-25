@@ -4,13 +4,13 @@ Here you can stay up to date with the latest developments in data-envelopes
 We will be organising events to raise awareness and gather feedback on data-envelopes, and also participating in community events to keep up with developments. We will list these here.
 
 ## News
-* [CHIMAERA](https://tdcc.nl/about-tddc/ssh/interoperability-missions/chimaera-cultural-heritage-interoperability-mappings-across-existing-resource-architectures/) project starts as part of the TDCC-SSH Inteoperability mission
+* [CHIMAERA](https://tdcc.nl/about-tddc/ssh/interoperability-missions/chimaera-cultural-heritage-interoperability-mappings-across-existing-resource-architectures/) project starts as part of the TDCC-SSH Interoperability mission
 
 ## Upcoming Events
+* Panel ["De waarde van het AV-archief in onzekere tijden - een Europees perspectief"](https://www.avanet.nl/evenementen/symposium-2026/) at AVA_Net Symposium  - 25th June 2026 in Hilversum.
+## Past Events
 * Panel ["Telling the story of a dataset"](https://zenodo.org/records/19918333) at [DHBenelux 2026](http://2026.dhbenelux.org/conference-programme/) - 4th June 2026 in Maastricht
 * Workshop "Hail the other side: To which extent does dataset documentation inform both human and machine worlds?" at [AI through History, History through AI](https://www.uni.lu/c2dh-en/events/ai-through-history-history-through-ai/) - 16th June 2026 in Luxembourg
-  
-## Past Events
 * Presentation "Write it down! Fostering Responsible Reuse of Cultural Heritage Data with Interoperable Dataset Descriptions" at the [Fantastic Futures 2025](https://sites.google.com/view/ai4lam/fantastic-futures-2025?authuser=0) conference - 3rd-5th December 2025 in London
 * Data-envelopes presentation at a workshop for the Preservation and Access course at the University of Amsterdam - 2nd December 2025 in Amsterdam
 * Hands-on workshop at the [Data Ethics for Historical Research in a Digital Era](https://ieg-dhr.github.io/Data-Ethics/) conference - 10-12 November 2025 in Mainz.
