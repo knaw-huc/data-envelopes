@@ -37,6 +37,7 @@ Data-Envelopes share the same purposes as Datasheets for DCH, an initiative with
 | Share/Find|Help people find your dataset||+|+|+|+||||||
 |Share/Find| Make your dataset more searchable (by making it machine-readable)||+|+|+|||||||
 |(Re)use|Help people reuse your dataset||+|+|+|+|||||+|
+|(Re)use|Load dataset into tools||||+|||||||
 |(Re)use|Help people reuse your research resources||||||+||||
 |(Re)use|Get credit for your dataset||?|?|?|+||||||
 |Reflect| Encourage reflection about how to collect and process data|+|+|+|+|?|||||+|
