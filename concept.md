@@ -5,6 +5,8 @@ A data-envelope has a modular structure to make it easier to find relevant infor
 
 ![Data-envelope levels](data-envelopes-levels.png)
 
+The data-envelope concept is defined in a CMDI template, this will be published shortly. 
+
 ## Level 1: Basic information
 Level 1 of a data-envelope identifies the data-envelope and indicates who to talk to for more information.
 
@@ -15,7 +17,7 @@ Contents:
 * Creation and publication dates
 
 ## Level 2: Basic dataset metadata
-Level 2 provides basic metadata about the dataset, telling you what the dataset comprises, who made it, where you can find it and under which conditions you can use it. This level makes the data-envelope compatible with the DCAT3 standard.
+Level 2 provides basic metadata about the dataset, telling you what the dataset comprises, who made it, where you can find it and under which conditions you can use it. This level makes the data-envelope compatible with the DCAT3 standard. 
 
 Contents:
 * Snapshot - what is in the dataset?
@@ -46,6 +48,26 @@ Contents:
   * Maintenance status
   * Maintenance plan
   * Next planned updates
+ 
+A number of the Level 2 properties have been mapped to the properties used in DCAT-3 (both DCAT and Dublin Core), see the table below. Work is ongoing to refine this mapping and to map as many other properties as possible to DCAT and other commonly used vocabularies.
+
+| Data-envelope property | DCAT-3 property |
+|------------------------|-----------------|
+| Dataset Title | dct:title |
+| Description | dct:description |
+| Version | dcat:version |
+| Contact point | dcat:contactPoint |
+| Genre | dct:subject |
+| Languages | dct:language |
+| Geographical coverage | dct:spatial |
+| Temporal coverage | dct:temporal |
+| Date created | dct:created |
+| Publishing organisation | dc:publisher |
+| Creators | dct:creator |
+| Contributors | dct:contributor |
+| Dataset Link | dcat:landingPage |
+| Download - Link | dcat:downloadURL |
+| Licensing information | dcterms:license |
 
 ## Level 3: Data
 Level 3 dives deeper into the data itself, describing how it was created and the details of its structure and elements. It also highlights possible concerns about the dataset such as social impact, sensitivity and bias. 
