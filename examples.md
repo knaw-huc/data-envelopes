@@ -1,5 +1,5 @@
 # Examples of data-envelopes
-This page gives an overview of example data-envelopes, followed by plots of the temporal coverage of the datasets described in the data-envelopes.
+This page gives an overview of example data-envelopes, followed by plots of the temporal coverage of the datasets described in the data-envelopes. Many of these examples were produced as a [result of the 'Accessing Context' project](https://github.com/knaw-huc/data-envelopes/blob/main/results.md#accessing-context-project-2024-2026).
 ## Overview
 Here is an overview of example data-envelopes. If a data-envelope is publicly available then a link to the data-envelope is included.
 
