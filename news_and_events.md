@@ -11,6 +11,7 @@ We organise regular events to raise awareness and gather feedback on data-envelo
 * Workshop 'Interoperability of dataset descriptions'  - 22nd October 2026 in The Hague
   
 ## Past Events
+
 | Title | Date | Host | Location |
 |-------|------|-------|-------|
 | Workshop 'Data Ethics and Data Documentation'| 7th July 2026 |[Clariah Summer School 2026](https://clariah.nl/events/clariah-summer-school-2026/)|Amsterdam|
