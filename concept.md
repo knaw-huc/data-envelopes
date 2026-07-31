@@ -48,7 +48,8 @@ Contents:
   * Maintenance status
   * Maintenance plan
   * Next planned updates
- 
+
+### DCAT mapping
 A number of the Level 2 properties have been mapped to the properties used in DCAT-3 (both DCAT and Dublin Core), see the table below. Work is ongoing to refine this mapping and to map as many other properties as possible to DCAT and other commonly used vocabularies.
 
 | Data-envelope property | DCAT-3 property |
