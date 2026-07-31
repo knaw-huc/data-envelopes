@@ -1,4 +1,4 @@
-# Learning materials
+# Examples, guidelines and literature
 * [Introductory video](https://www.youtube.com/watch?v=rk6r81EzBlU) on dataset documentation
 * [Examples](examples.md) of data-envelopes
 * [Guidelines](guidelines.md) for filling in data-envelopes
