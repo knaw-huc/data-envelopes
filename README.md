@@ -25,10 +25,9 @@ Data-envelopes are being developed by the [Huygens Institute](https://www.huygen
 
 ## Information
 * [The data-envelope concept](concept.md)
-* [Implementations](implementations.md)
 * [Tools](tools.md)
-* [Learning materials](learning_materials.md)
-* [Data-envelope projects](projects.md)
+* [Examples, guidelines and literature](learning_materials.md)
+* [Projects](projects.md)
 * [Related initiatives](related_initiatives.md)
 * [News and events](news_and_events.md)
 * [Results](results.md)
