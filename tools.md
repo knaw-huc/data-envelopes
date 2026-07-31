@@ -1,9 +1,8 @@
 # Tools
 
-Here are tools for working with enriched dataset contextualisations:
+Here are tools for creating, editing and exporting rich dataset documentation:
 
-* Data-Envelopes
+* For local installation
   * [Huygens data-envelope editor](https://github.com/knaw-huc/hi-data-envelop-editor) - open source
-  * [SideDoc editor](https://sidedoc.app/)
-* Datasheets
+* For online use
   * [SideDoc editor](https://sidedoc.app/)
