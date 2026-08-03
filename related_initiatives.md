@@ -21,6 +21,7 @@ Do you know of an initiative not listed here? Please [let us know](contact.md)
 * [Data Scopes](https://pure.knaw.nl/ws/files/9167781/Data_Scopes_for_Digital_History_Research.pdf)
 * [A Checklist to Publish Collections as Data in GLAM Institutions](https://arxiv.org/abs/2304.02603)
 * [RO-Crate](https://www.researchobject.org/ro-crate/)
+* [STANDING Together - STANdards for data Diversity, INclusivity and Generalisability](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/dcat-application-profile-implementation-guidelines) (Note: this comes from the medical sector but the interests in bias and personal data overlap)
 
 To place data-envelopes in the context of the other initiatives, this table compares the purposes the most relevant initiatives serve. 
 
