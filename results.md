@@ -12,6 +12,6 @@ This page contains results of our research into dataset descriptions, per projec
 * Updated version of the [data-envelope editor](https://github.com/knaw-huc/hi-data-envelop-editor)
 * [Introductory video](https://www.youtube.com/watch?v=rk6r81EzBlU)
 * [Brief summary](<Brief summary of Dataset Contextualisation workshops.pdf>) and [full summary](<Summary of Dataset Contextualisation workshops.pdf>) of workshops held with users in 2025
-* Implementation plan
+* [Implementation plan](<Implementation_plan.pdf>)
 
 ## CHIMAERA project (2026-2027)
