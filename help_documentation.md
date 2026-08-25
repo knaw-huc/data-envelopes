@@ -75,7 +75,7 @@ This should contain information about the primary author of the data-envelope it
 Please use this space to provide any feedback on this section and to share any other insights or information you think would be useful. For example, you could indicate to what extent the necessary information for the data-envelope was easily available: was this a current project with experts available to answer all the questions, or is it data from fifty years ago for which the description has been pieced together from old documentation sources? You can also indicate what information sources you used to fill in the data-envelope, if you wish. 
 
 # Level 2 Basic Metadata
-Level 2 describes the dataset at a conceptual level. It is the 'trailer' that allows users to assess if the dataset is relevant to them, and as such it should be concise (preferably max 200 words). This level describes the basic dataset metadata. This includes: what the dataset contains, what the temporal and geographical coverage are, how it can be accessed etc. This section conforms to the Data Catalog Vocabulary (DCAT) standard, ensuring compatibility with machine-readable formats.
+Level 2 describes the dataset at a conceptual level. It is the 'trailer' that allows users to assess if the dataset is relevant to them. This level describes the basic dataset metadata. This includes: what the dataset contains, what the temporal and geographical coverage are, how it can be accessed etc. This section conforms to the Data Catalog Vocabulary (DCAT) standard, ensuring compatibility with machine-readable formats.
 
 ## 2.1 Snapshot<a id='level-2-snapshot'></a>
 This contains information about what is in the dataset.
@@ -84,7 +84,7 @@ There is some discussion as to what should be included in the temporal and geogr
 
 * Dataset title - the title of the dataset
 * Version - the version number of the dataset. Typically this is '1' for the first version of the dataset. An alternative option, particularly for datasets that have been in existence for some time already, could be to use the year. You can agree a numbering system with your team. This should be the same as the version number stated in the data-envelope title. 
-* Description - Provide a free text account of the dataset or resource (limit 200 words). Include information about the content and topic of the data and what makes the dataset valuable. You may also briefly refer to how the data is available (download, portal etc.) but details about this should be entered at Level 3.
+* Description - Provide a concise, free text account of the dataset or resource (limit 200 words). Include information about the content and topic of the data and what makes the dataset valuable. You may also briefly refer to how the data is available (download, portal etc.) but details about this should be entered at Level 3.
 * Genre - One or more genres from a vocabulary that apply to the dataset. A genre categorises the dataset or the items in it. E.g. Books, Legislation, Videorecording
 * Other Genre - Genres that apply to the dataset that are not included in the vocabulary
 * Topic Classification - One or more topics from a vocabulary that apply to the dataset. A topic describes what the dataset is about. E.g. Archaelogy, History, Public Administration.
