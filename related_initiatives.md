@@ -1,5 +1,5 @@
 # Related initiatives
-Do you know of an initiative not listed here? Please [let us know](contact.md)
+Do you know of an initiative not listed here? Please [let us know](contact.md). 
 
 * [Data Management Plans](https://en.wikipedia.org/wiki/Data_management_plan)
 * [Data Papers](https://book.the-turing-way.org/communication/dif-articles/data/)
@@ -22,6 +22,7 @@ Do you know of an initiative not listed here? Please [let us know](contact.md)
 * [A Checklist to Publish Collections as Data in GLAM Institutions](https://arxiv.org/abs/2304.02603)
 * [RO-Crate](https://www.researchobject.org/ro-crate/)
 * [STANDING Together - STANdards for data Diversity, INclusivity and Generalisability](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/dcat-application-profile-implementation-guidelines) (Note: this comes from the medical sector but the interests in bias and personal data overlap)
+* [Czech Data Steward Community README examples](https://github.com/Czech-Data-Steward-Community/README_FILES_EXAMPLES)
 
 To place data-envelopes in the context of the other initiatives, this table compares the purposes the most relevant initiatives serve. 
 
